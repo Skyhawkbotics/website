@@ -1,2 +1,2 @@
 # website
- The Skyhwakbotics Website
+ The Skyhwakbotics Website. For dev info, see README-DEVS.md
