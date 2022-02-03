@@ -2499,8 +2499,8 @@ __metadata:
   dependencies:
     glob: ^7.1.2
     object-assign: ^4.1.1
-    postcss: ^6.0.9
-    postcss-value-parser: ^3.3.0
+  postcss@^8.2.13:
+    version "8.2.13"
   checksum: f276849375a17c43eb89e1256d8e99bf47e0506d0653618e496168da2a694196f73c545387cccac6bfe08213b3fdeeb7576586193a99bf1eb8acc985095e0823
   languageName: node
   linkType: hard
