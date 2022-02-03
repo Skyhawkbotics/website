@@ -21,7 +21,7 @@ jobs:
                 ls -a
                 git config --global user.name 'GitHub Actions'
                 git config --global user.email 'RedstoneWizard08@users.noreply.github.com'
-                git checkout gh-pages
+                git switch gh-pages
                 ls -a
                 yarn install
                 yarn build
