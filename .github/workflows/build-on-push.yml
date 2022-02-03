@@ -5,12 +5,10 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
             - uses: actions/setup-node@v2
               with:
                   node-version: "17.x"
             - run: |
-                rm -r * .*
                 git clone https://github.com/Skyhawkbotics/website.git .
                 git config --global user.name 'GitHub Actions'
                 git config --global user.email 'RedstoneWizard08@users.noreply.github.com'
@@ -18,7 +16,7 @@ jobs:
                 yarn install
                 yarn build
                 rm !("out")
-                mv out/* out/.* .
+                mv out/* .
                 rm -r out
                 git add .
                 git commit -m "Automated build"
