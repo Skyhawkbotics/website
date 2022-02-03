@@ -24,8 +24,8 @@ jobs:
                 git reset
                 yarn install
                 yarn build
-                find . -type f -not name 'out' -delete
-                find . -type d -not name 'out' -delete
+                find . -type f -not -name 'out' -delete
+                find . -type d -not -name 'out' -delete
                 mv out/* .
                 rm -r out
                 git add .
