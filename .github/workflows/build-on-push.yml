@@ -18,15 +18,14 @@ jobs:
                   node-version: "17.x"
             - name: Build & push
               run: |
-                ls -a
                 git config --global user.name 'GitHub Actions'
                 git config --global user.email 'RedstoneWizard08@users.noreply.github.com'
                 git symbolic-ref HEAD refs/heads/gh-pages
                 git reset
-                ls -a
                 yarn install
                 yarn build
-                rm !("out")
+                find . -type f -not name 'out' -delete
+                find . -type d -not name 'out' -delete
                 mv out/* .
                 rm -r out
                 git add .
