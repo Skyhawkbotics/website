@@ -28,4 +28,4 @@ jobs:
                 rm -r out
                 git add .
                 git commit -m "Automated build"
-                git push
+                git push --set-upstream origin gh-pages
