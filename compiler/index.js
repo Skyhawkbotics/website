@@ -9,7 +9,7 @@ const publicPath = path.join(__dirname, "..", "public");
 
 console.log("Scanning files...");
 
-if(!fs.existsSync(viewsPath) || !fs.lstatSync(viewsPath).isDirectory()) {
+if (!fs.existsSync(viewsPath) || !fs.lstatSync(viewsPath).isDirectory()) {
     console.log("Views folder does not exist!");
     return;
 }
@@ -28,24 +28,34 @@ for (var i = 0; i < files_.length; i++) {
     }
 }
 
-console.log("Starting compilation...");
+console.log(
+    "\x1b[42m\x1b[30m INFO \x1b[0m\x1b[1m\x1b[33m Starting compilation...\x1b[0m"
+);
 
 for (var i = 0; i < files.length; i++) {
     const file = files[i];
-    console.log(`Compiling ${file}...`);
+    console.log(
+        `\x1b[42m\x1b[30m INFO \x1b[0m\x1b[1m\x1b[36m Compiling ${file}...\x1b[0m`
+    );
     var content = fs.readFileSync(file, { encoding: "utf-8" }).toString();
     var match = regex.exec(content);
     while (match != null) {
+        const matchedFile = path.join(
+            viewsPath,
+            match[1] + (match[1].endsWith(".ejs") ? "" : ".ejs")
+        );
+        console.log(
+            `\x1b[42m\x1b[30m INFO \x1b[0m\x1b[1m\x1b[35m >> Found matched partial ${matchedFile}!\x1b[0m`
+        );
+        if (!fs.existsSync(matchedFile)) {
+            console.log(
+                `\x1b[41m\x1b[30m ERROR \x1b[0m\x1b[1m\x1b[35m >> Matched partial ${matchedFile}'s file doesn't exist!\x1b[0m`
+            );
+            continue;
+        }
         content = content.replace(
             match[0],
-            fs
-                .readFileSync(
-                    path.join(
-                        viewsPath,
-                        match[1] + (match[1].endsWith(".ejs") ? "" : ".ejs")
-                    )
-                )
-                .toString()
+            fs.readFileSync(matchedFile).toString()
         );
         match = regex.exec(content);
     }
@@ -58,7 +68,9 @@ for (var i = 0; i < files.length; i++) {
     );
 }
 
-console.log("Copying assets...");
+console.log(
+    "\x1b[42m\x1b[30m INFO \x1b[0m\x1b[1m\x1b[36m Copying assets...\x1b[0m"
+);
 
 if (fs.existsSync(publicPath)) {
     const publicFiles = fs.readdirSync(publicPath);
@@ -69,4 +81,4 @@ if (fs.existsSync(publicPath)) {
     }
 }
 
-console.log("Done!");
+console.log("\x1b[42m\x1b[30m INFO \x1b[0m\x1b[1m\x1b[33m Done!\x1b[0m");
