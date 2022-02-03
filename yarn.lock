@@ -3060,6 +3060,7 @@ __metadata:
     autoprefixer: ^9.8.8
     ejs: ^3.1.6
     express: ^4.17.2
+    fs-extra: ^10.0.0
     path: ^0.12.7
     postcss: ^7.0.39
     postcss-uncss: ^0.17.0

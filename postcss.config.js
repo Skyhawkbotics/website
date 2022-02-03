@@ -1,11 +1,11 @@
 const ucss = require("postcss-uncss");
 // const uncss = ucss({
-    // html: [
-        // "./**/*.ejs"
-    // ],
-    // ignore: [
-        // "./**/*.js"
-    // ]
+// html: [
+// "./**/*.ejs"
+// ],
+// ignore: [
+// "./**/*.js"
+// ]
 // });
 
 module.exports = {
@@ -13,5 +13,5 @@ module.exports = {
         require("tailwindcss"),
         // require("autoprefixer"),
         // uncss
-    ]
-}
+    ],
+};

@@ -10,12 +10,12 @@ app.set("view engine", "ejs");
 
 app.get("/*", (req, res) => {
     var p = req.path;
-    if(req.path == "/") {
+    if (req.path == "/") {
         p = "/index";
-    } else if(req.path == "/index.html" || req.path == "/index.html.ejs") {
+    } else if (req.path == "/index.html" || req.path == "/index.html.ejs") {
         res.redirect("/");
     }
-    if(fs.existsSync(path.join(__dirname, "views" + p + ".ejs"))) {
+    if (fs.existsSync(path.join(__dirname, "views" + p + ".ejs"))) {
         res.render(path.join(__dirname, "views" + p + ".ejs"));
     } else {
         res.render(path.join(__dirname, "views/404.ejs"));

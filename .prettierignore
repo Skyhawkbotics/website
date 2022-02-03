@@ -1,0 +1,11 @@
+build
+coverage
+test
+dist
+node_modules
+*.test.*
+min
+out
+.pnp.cjs
+.pnp.loader.mjs
+.yarn
