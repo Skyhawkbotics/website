@@ -8,13 +8,13 @@ This will provide you with a definition of the folder structure.
 -   When I refer to `/` in a code snippet, I mean the folder called `public`.
 -   If you see an error in the console, don't worry about it, if it happened after visiting a page. If you really are worried, contact me at **jacob1coder@gmail.com**.
 -   What I mean by the console is the console that appears after starting the application.
--   To start the application, run `npm start` with your command line. Head to **http://localhost:3030** to see it.
--   If the application is running on our server, you'll see it at **https://src.nosadnile.net/**.
+-   To start the application, run `yarn start` with your command line. Head to **http://localhost:3030** to see it.
+-   If the application is running on our server, you'll see it at **https://skyhawkbotics.github.io/website/**.
 
 ### /node_modules
 
 -   You can pretty much ignore this folder. All it does is house the components that power the app.
--   If it isn't there, run `npm i` with your command line. Before running, make sure you have [Node.js](https://www.nodejs.org/) installed.
+-   If it isn't there, run `yarn install` with your command line. Before running, make sure you have [Node.js](https://www.nodejs.org/) installed, and you've installed yarn with `npm install --global yarn`.
 
 ### /public
 
