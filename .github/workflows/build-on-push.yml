@@ -23,3 +23,4 @@ jobs:
                 git add .
                 git commit -m "Automated build"
                 git push
+            continue-on-error: true
