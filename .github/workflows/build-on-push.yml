@@ -18,6 +18,7 @@ jobs:
                   node-version: "17.x"
             - name: Build & push
               run: |
+                ls -a
                 git config --global user.name 'GitHub Actions'
                 git config --global user.email 'RedstoneWizard08@users.noreply.github.com'
                 git checkout gh-pages
