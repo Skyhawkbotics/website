@@ -24,8 +24,9 @@ jobs:
                 git reset
                 yarn install
                 yarn build
+                echo "Finding and deleting unused files..."
                 find . -type f -not -name 'out' -print0 | xargs -0 -I {} rm {}
-                find . -type d -not -name 'out' -print0 | xargs -0 -I {} rm -r {}
+                echo "Done!"
                 mv out/* .
                 rm -r out
                 git add .
