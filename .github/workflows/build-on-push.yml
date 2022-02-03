@@ -11,14 +11,11 @@ jobs:
               uses: actions/setup-node@v2
               with:
                   node-version: "17.x"
-            - name: Switch branch
-              uses: actions/checkout@v2
-              with:
-                ref: refs/heads/gh-pages
             - name: Build & push
               run: |
                 git config --global user.name 'GitHub Actions'
                 git config --global user.email 'RedstoneWizard08@users.noreply.github.com'
+                git checkout refs/heads/gh-pages
                 yarn install
                 yarn build
                 rm !("out")
