@@ -9,7 +9,7 @@ jobs:
               uses: actions/checkout@v2
               with:
                 fetch-depth: 0
-                repository: https://github.com/Skyhawkbotics/website
+                repository: ${{ github.repository }}
                 path: .
                 ref: ${{ github.ref }}
             - name: Setup node
