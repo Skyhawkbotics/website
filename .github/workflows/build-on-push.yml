@@ -5,11 +5,15 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v2
+            - name: Clone
+              uses: actions/checkout@v2
+            - name: Setup node
+              uses: actions/setup-node@v2
               with:
                   node-version: "17.x"
-            - run: |
+            - name: Clone, build, and push.
+              continue-on-error: true
+              run: |
                 rm -r * .*; exit 0
                 git clone https://github.com/Skyhawkbotics/website.git .
                 git config --global user.name 'GitHub Actions'
@@ -23,4 +27,3 @@ jobs:
                 git add .
                 git commit -m "Automated build"
                 git push
-            continue-on-error: true
