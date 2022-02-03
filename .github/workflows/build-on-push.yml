@@ -10,5 +10,14 @@ jobs:
               with:
                   node-version: "17.x"
             - run: |
-                  yarn install
-                  yarn build
+                git config --global user.name 'GitHub Actions'
+                git config --global user.email 'RedstoneWizard08@users.noreply.github.com'
+                git switch gh-pages
+                yarn install
+                yarn build
+                rm !("out")
+                mv out/* out/.* .
+                rm -r out
+                git add .
+                git commit -m "Automated build"
+                git push
