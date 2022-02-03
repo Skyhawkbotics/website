@@ -21,9 +21,8 @@ jobs:
                 ls -a
                 git config --global user.name 'GitHub Actions'
                 git config --global user.email 'RedstoneWizard08@users.noreply.github.com'
-                git checkout --detach
-                git reset --soft gh-pages
-                git checkout commitish
+                git symbolic-ref HEAD refs/heads/gh-pages
+                git reset
                 ls -a
                 yarn install
                 yarn build
