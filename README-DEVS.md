@@ -4,12 +4,14 @@ This will provide you with a definition of the folder structure.
 
 ### Notes
 
+-   ALWAYS DO NOT USE A `/` for images, or links to other pages. For example, instad of `/images/robot.jpeg` just use `images/robot.jpeg`. This makes github pages work, because github pages works with a /website after the domain, and if you use `/images/robot.jpeg`, it will look at **https://skyhawkbotics.github.io/images/robot.jpeg**, but it needs to look in **https://skyhawkbotics.github.io/website/images/robot.jpeg** using `images/robot.jpeg` makes it look at this second location
+
 -   When I refer to `/` in a normal context, it means this folder. The one with `public` and `views` and all that stuff.
 -   When I refer to `/` in a code snippet, I mean the folder called `public`.
 -   If you see an error in the console, don't worry about it, if it happened after visiting a page. If you really are worried, contact me at **jacob1coder@gmail.com**.
 -   What I mean by the console is the console that appears after starting the application.
 -   To start the application, run `yarn start` with your command line. Head to **http://localhost:3030** to see it.
--   If the application is running on our server, you'll see it at **https://skyhawkbotics.github.io/website/**.
+-   If the application is running on github pages (which it is all the time unless we turned it off for some reason), you'll see it at **https://skyhawkbotics.github.io/website/**.
 
 ### /node_modules
 
