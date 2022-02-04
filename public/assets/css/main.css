@@ -261,7 +261,7 @@ a:hover strong {
 
 strong,
 b {
-    color: #3d4449;
+    color: #8d9296;
     font-weight: 600;
 }
 
@@ -2871,7 +2871,7 @@ button:disabled,
 }
 #header .logo {
     border-bottom: 0;
-    color: inherit;
+    color: #6a6f72;
     font-family: "Roboto Slab", serif;
     font-size: 1.125em;
 }
