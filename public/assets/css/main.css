@@ -2834,7 +2834,7 @@ button:disabled,
         width: 7.25em;
     }
     #sidebar .toggle:before {
-        color: #3d4449;
+        color: #f56a6a;
         margin-left: -0.0625em;
         margin-top: -0.25em;
         font-size: 1.1rem;
