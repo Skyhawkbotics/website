@@ -1,0 +1,31 @@
+name: Build on Push
+on: [push]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Clone
+              uses: actions/checkout@v2
+              with:
+                fetch-depth: 0
+                repository: ${{ github.repository }}
+                path: .
+                ref: ${{ github.ref }}
+            - name: Setup node
+              uses: actions/setup-node@v2
+              with:
+                  node-version: "17.x"
+            - name: Build & push
+              run: |
+                git config --global user.name 'GitHub Actions'
+                git config --global user.email 'RedstoneWizard08@users.noreply.github.com'
+                git symbolic-ref HEAD refs/heads/gh-pages
+                git reset
+                yarn install
+                yarn build
+                mv out/* .
+                rm -r out
+                git add .
+                git commit -m "Automated build"
+                git push --set-upstream origin gh-pages --force

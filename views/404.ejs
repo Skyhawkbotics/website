@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>404 | Hawkbot1cs</title>
+		<%- include("partials/head") %>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<%- include("partials/header.ejs") %>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h2>Error 404: Page not found.</h2>
+									</header>
+
+									<span class="image main" id="imgm"><img src="images/pic11.jpg" alt="" /></span>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<%- include("partials/sidebar.ejs") %>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+        <script>
+            window.addEventListener("load", () => {
+                setTimeout(() => {
+                    document.getElementById("imgm").innerHTML = `
+                        <iframe src="https://youtube.com/embed/dQw4w9WgXcQ?autoplay=true" width="900" height="480" allow="autoplay"></iframe>
+                    `;
+                }, 5000);
+            });
+        </script>
+			<%- include("partials/footer") %>
+
+	</body>
+</html>
