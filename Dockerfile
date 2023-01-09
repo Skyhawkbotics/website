@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 RUN apt-get update && \
     apt-get -y install bash curl && \
-    curl -fsSL https://deb.nodesource.com/setup_17.x | bash - && \
+    curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
     apt-get -y install nodejs && \
     mkdir -p /app
 
@@ -10,9 +10,9 @@ COPY . /app
 
 WORKDIR /app
 
-RUN npm install --global yarn && \
-    yarn install
+RUN npm install --global pnpm && \
+    pnpm install
 
-EXPOSE 3030
+EXPOSE 4000
 
-CMD [ "/usr/bin/yarn", "start" ]
+CMD [ "/usr/bin/pnpm", "start" ]
