@@ -1,15 +1,9 @@
-FROM ubuntu:20.04 as builder
-
-RUN apt-get update && \
-    apt-get -y install bash curl && \
-    curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
-    apt-get -y install nodejs && \
-    mkdir -p /app
+FROM node:16-alpine as builder
 
 COPY . /app
 WORKDIR /app
 
-RUN npm install --global pnpm
+RUN corepack enable
 RUN pnpm install
 RUN pnpm build:static
 
