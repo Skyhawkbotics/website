@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:20.04 as builder
 
 RUN apt-get update && \
     apt-get -y install bash curl && \
@@ -7,12 +7,11 @@ RUN apt-get update && \
     mkdir -p /app
 
 COPY . /app
-
 WORKDIR /app
 
-RUN npm install --global pnpm && \
-    pnpm install
+RUN npm install --global pnpm
+RUN pnpm install
+RUN pnpm build:static
 
-EXPOSE 4000
-
-CMD [ "/usr/bin/pnpm", "start" ]
+FROM httpd:alpine
+COPY --from=builder /app/build /usr/local/apache2/htdocs/
