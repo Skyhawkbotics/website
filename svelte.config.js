@@ -44,14 +44,14 @@ const config = {
             "$stores/*": "src/stores/*",
             "$assets/*": "src/assets/*",
         },
-    },
 
-    paths:
-        process.env.GITHUB_ACTIONS && process.env.GITHUB_REPOSITORY
-            ? {
-                  base: "/" + process.env.GITHUB_REPOSITORY.split("/").pop(),
-              }
-            : undefined,
+        paths:
+            process.env.GITHUB_ACTIONS && process.env.GITHUB_REPOSITORY
+                ? {
+                      base: "/" + process.env.GITHUB_REPOSITORY.split("/").pop(),
+                  }
+                : undefined,
+    },
 };
 
 export default config;
