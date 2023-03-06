@@ -15,11 +15,11 @@
         We are always in need of donations! If you would like to support our club, please visit <a
             href="https://bit.ly/RoboticsDonate"
             target="_blank"
-            rel="noreferrer">our InTouch page</a
+            rel="noreferrer">our InTouch page, click "CLICK HERE TO MAKE A DONATION" at the bottom of the page, select "Southridge High School", "Donation for Robotics" and select the amount you would like to donate. </a
         >.
     </p>
 
-    <img src={pic11} alt="pic11" />
+    <img src=/src/assets/donate.png alt="Fill in these values, and choose the amount you would like to donate." />
 </section>
 
 <br /><br />
