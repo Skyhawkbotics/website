@@ -1,7 +1,7 @@
 <script lang="ts">
     import { isMenuOpen } from "$stores/menu";
 
-    import pic11 from "$assets/pic11.jpg";
+    import donate from "$assets/donate.png";
 </script>
 
 <svelte:head>
@@ -19,7 +19,7 @@
         >.
     </p>
 
-    <img src=/src/assets/donate.png alt="Fill in these values, and choose the amount you would like to donate." />
+    <img src={donate} alt="Fill in these values, and choose the amount you would like to donate." />
 </section>
 
 <br /><br />
