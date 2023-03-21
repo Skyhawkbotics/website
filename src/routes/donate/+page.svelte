@@ -15,7 +15,9 @@
         We are always in need of donations! If you would like to support our club, please visit <a
             href="https://bit.ly/RoboticsDonate"
             target="_blank"
-            rel="noreferrer">our InTouch page, </a> click "CLICK HERE TO MAKE A DONATION" at the bottom of the page, select "Southridge High School", "Donation for Robotics" and select the amount you would like to donate.
+            rel="noreferrer">the BSD InTouch page, </a> click "CLICK HERE TO MAKE A DONATION" at the bottom of the page, select "Southridge High School", "Donation for Robotics" and select the amount you would like to donate. Donation can be paid with VISA, MASTERCARD, or DISCOVER.
+    </p><p class="donate--text">
+    Thank you for your donation!
     </p>
 
     <img src={donate} alt="Fill in these values, and choose the amount you would like to donate." />
