@@ -1,6 +1,5 @@
 <svelte:head>
     <title>Electronics Drive | Hawkbot1cs</title>
-<svelte:head>
 
 <p class="section-title">Electronics Drive</p>
 
