@@ -23,7 +23,6 @@
             path: "/edrive",
         },
     ];
-    ];
 </script>
 
 <div class="sidebar" class:open={$isMenuOpen}>
