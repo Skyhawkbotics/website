@@ -18,6 +18,11 @@
             name: "Donate",
             path: "/donate",
         },
+        {
+            name: "Electronics Drive",
+            path: "/edrive",
+        },
+    ];
     ];
 </script>
 
