@@ -12,14 +12,16 @@
 
 <section id="about" class="about" class:open={$isMenuOpen}>
     <img src={robot} alt="robot" />
-
+    
+    <h1>Our Vision:</h1>
     <p class="about--text">
-      Our Vision:
       This organization was born out of a vision that every single youth deserves easy and free access to quality STEM education that is fun and engaging.  
-
-      Our Values:
-      Occupations in the STEM world will dominate our economy and its effects will be felt in our lives, whether we are directly involved or not. That’s why it’s critical to provide youth with free, quality STEM education to meet them where they are at, inspire them, and support them in their growth. The best way to learn is in an environment where cooperation and competition are balanced, where all youth are included, and where everyone grows, succeeds, and has fun! 
-
+    </p>
+    <h1>Our Values:</h1>
+    <p class="about--text">
+        Occupations in the STEM world will dominate our economy and its effects will be felt in our lives, whether we are directly involved or not. That’s why it’s critical to provide youth with free, quality STEM education to meet them where they are at, inspire them, and support them in their growth. The best way to learn is in an environment where cooperation and competition are balanced, where all youth are included, and where everyone grows, succeeds, and has fun! 
+    </p>
+    <p class="about--text">
       Our Mission:
       Our mission is to provide access to STEM (science, technology, education, and mathematics) education for youth in our community. Through youth participation in preparing, designing, building, testing, promoting, and competing with robots, Hawkbot1cs provides learning experiences related to STEM education, but also character development, encouraging leadership, communication, teamwork, and more.
 
