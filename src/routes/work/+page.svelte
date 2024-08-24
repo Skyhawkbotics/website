@@ -8,7 +8,7 @@
     <title>Our Work</title>
 </svelte:head>
 
-<p class="section-title" class:open={$isMenuOpen}>About Us</p>
+<p class="section-title" class:open={$isMenuOpen}>Our Work</p>
 
 <section id="about" class="about" class:open={$isMenuOpen}>
     <img src={robot} alt="robot" />
