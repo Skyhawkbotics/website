@@ -18,6 +18,10 @@
             name: "Donate",
             path: "/donate",
         },
+        {
+            name: "Our Work",
+            path: "/work",
+        },
     ];
 </script>
 
