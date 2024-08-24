@@ -13,7 +13,7 @@
 <section id="about" class="about" class:open={$isMenuOpen}>
     <img src={robot} alt="robot" />
     
-    <h1>Our Vision:</h1>
+    <h1 class="section-heading" class:open={$isMenuOpen}>Our Vision:</h1>
     <p class="about--text">
       This organization was born out of a vision that every single youth deserves easy and free access to quality STEM education that is fun and engaging.  
     </p>
