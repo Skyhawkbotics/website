@@ -13,10 +13,11 @@
 <section id="about" class="about" class:open={$isMenuOpen}>
     <img src={robot} alt="robot" />
     
-    <h1 class="section-heading" class:open={$isMenuOpen}>Our Vision:</h1>
+    <h1>Our Vision:</h1>
     <p class="about--text">
       This organization was born out of a vision that every single youth deserves easy and free access to quality STEM education that is fun and engaging.  
     </p>
+    
     <h1>Our Values:</h1>
     <p class="about--text">
         Occupations in the STEM world will dominate our economy and its effects will be felt in our lives, whether we are directly involved or not. That’s why it’s critical to provide youth with free, quality STEM education to meet them where they are at, inspire them, and support them in their growth. The best way to learn is in an environment where cooperation and competition are balanced, where all youth are included, and where everyone grows, succeeds, and has fun! 
@@ -34,7 +35,7 @@
     </p>
       
       
-    </p>
+    
 </section>
 
 <br /><br />
