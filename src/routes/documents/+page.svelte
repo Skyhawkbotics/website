@@ -4,6 +4,7 @@
     import robot from "$assets/robot.jpeg";
 </script>
 
+<section>
 <svelte:head>
     <title>Nonprofit Documents and Financial Information</title>
 </svelte:head>
