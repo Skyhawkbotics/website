@@ -22,6 +22,10 @@
             name: "Our Work",
             path: "/work",
         },
+        {
+            name: "Event Calendar",
+            path: "/calendar",
+        },
     ];
 </script>
 
