@@ -26,6 +26,10 @@
             name: "Event Calendar",
             path: "/calendar",
         },
+        {
+            name: "Documents and Records",
+            path: "/documents",
+        },
     ];
 </script>
 
