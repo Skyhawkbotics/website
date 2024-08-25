@@ -9,7 +9,7 @@
 </svelte:head>
 
     <p class="about--text">
-        As a IRS-recognized, 501(c)(3)-classified nonprofit, we are committed to a high level of transparency and accuracy when it comes to our documents and records. Below, you will find copies of our founding documents (Articles of Incorporation, bylaws, and Form 1023-EZ), a history of our Meeting Minutes, and our most recently filed Form 990. If you would like to request any other documents, please contact <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=skyhawkbotics@gmail.com">skyhawkbotics@gmail.com</a> and we’ll try to get back to you as soon as possible.
+        As a IRS-recognized, 501(c)(3)-classified nonprofit, we are committed to a high level of transparency and accuracy when it comes to our documents and records. Below, you will find copies of our founding documents (Articles of Incorporation, bylaws, and Form 1023-EZ), a history of our Meeting Minutes, and our most recently filed Form 990. If you would like to request any other documents, please contact <a href={emailLink}>skyhawkbotics@gmail.com</a> and we’ll try to get back to you as soon as possible.
     </p>
 
   <p class="section-title" class:open={$isMenuOpen}>Documents</p>
