@@ -14,11 +14,7 @@
     <img src={robot} alt="robot" />
 
     <p class="about--text">
-        We are located at Southridge High School, in Beaverton, Oregon. At Southridge Robotics Club,
-        we are a team of friends who are just getting started together in the field of robotics and
-        programming, trying to learn from each other. At Southridge Robotics Club, we are piecing
-        together our minds, to build robots and simply put time and effort into something that we
-        all enjoy.
+Founded as a school club in 2021, Hawkbot1cs has become more than your average robotics team. Originally intended to be a place where students of Southridge High School could hang out, build robots, and compete in the First Tech Challenge, we are now a 501(c)(3) nonprofit and our purpose has now expanded to providing STEM (science, technology, engineering, and mathematics) opportunities for youth across our amazing Beaverton community! You can find us at Southridge High School, Mountainside High School, at science fairs across south Beaverton, at events in our local community, at robotics competitions, and online here and on our social media (@hawk.botics on Instagram)! It’s harder to miss us than find us! However, we could not do this without your generous support. Please consider donating now so that we can continue to inspire the next generation of thinkers and dreamers. Thank you in advance!
     </p>
 </section>
 
