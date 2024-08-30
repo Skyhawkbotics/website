@@ -30,6 +30,10 @@
             name: "Documents and Records",
             path: "/documents",
         },
+        {
+            name: "Get Involved",
+            path: "/involved",
+        },
     ];
 </script>
 
