@@ -119,7 +119,7 @@
         <p class="bottom--section--title">About Us</p>
 
         <p class="bottom--section--description">
-            Our main program, the FIRST Tech Challenge robotics team Hawkbot1cs 20790 currently meets at Southridge High School, in Beaverton, Oregon. As a team,
+            Our main program, the FIRST Tech Challenge robotics team Hawkbot1cs 20790, currently meets at Southridge High School, in Beaverton, Oregon. As a team,
              we are dedicated to developing great skills and fostering great friendships. Founded
             in 2021 with the goal of competing in the First Tech Challenge, we overcame many
             challanges faced by many entrepeneurs, and eventually grew from a school club into a registered 501(c)(3) with a broadened mission. We can't wait to
