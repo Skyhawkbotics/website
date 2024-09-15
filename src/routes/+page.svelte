@@ -63,11 +63,11 @@
                 <p class="features--item--content--title">Compete in the First Tech Challenge!</p>
 
                 <p class="features--item--content--description">
-                    What would robotics be without a goal to work towards? The First Tech Challenge
-                    is a competition that brings together teams from all around the country to
-                    compete in a theme-based game, usually based on current events! We spend about
+                    What better way to learn STEM skills than through the context of a game? The First Tech Challenge
+                    is a competition that brings together robotics teams from all around the country to
+                    compete in a theme-based game, usually based on current events! Most of what we do as a nonprofit is related to the Challenge as we spend about
                     1/2 of our year preparing for this, starting with Kickoff in September and the
-                    finals in late January, but you can find us at meets all over Oregon around
+                    league tournament in early February, but you can find us at league meets across Oregon around
                     November and December!
                 </p>
             </div>
@@ -84,9 +84,9 @@
                 </p>
 
                 <p class="features--item--content--description">
-                    As young students, we still have lots to learn, and cooperation is one big part.
-                    Today, the biggest advancements in science and technology are no longer done by
-                    individuals, but teams of people. We hope to bring these valuable teamwork
+                    As students, we acknowledge that we still have lots to learn, and strong teamwork and cooperation skills are critical to this.
+                    Today, the biggest advancements in science and technology are made by large teams of brilliant and dedicated people, not isolated individuals. 
+                    We hope to bring these valuable teamwork
                     skills to the competition and beyond!
                 </p>
             </div>
@@ -119,11 +119,11 @@
         <p class="bottom--section--title">About Us</p>
 
         <p class="bottom--section--description">
-            We are located at Southridge High School, in Beaverton, Oregon. At Southridge Robotics
-            Club, we are dedicated to developing great skills and foster great friendships. Founded
+            Our main program, the FIRST Tech Challenge robotics team Hawkbot1cs 20790 currently meets at Southridge High School, in Beaverton, Oregon. As a team,
+             we are dedicated to developing great skills and fostering great friendships. Founded
             in 2021 with the goal of competing in the First Tech Challenge, we overcame many
-            challanges faced by many entrepeneurs, broadening some of our other skills. We hope to
-            be part of the 2022 First Tech Challenge and hope to see you at the competition!
+            challanges faced by many entrepeneurs, and eventually grew from a school club into a registered 501(c)(3) with a broadened mission. We can't wait to
+            see you at this year's FIRST Tech Challenge, Into The Deep!
         </p>
 
         <a href="{base}/learn" class="bottom--section--button">More</a>
@@ -135,9 +135,10 @@
         <p class="bottom--section--title">Donate</p>
 
         <p class="bottom--section--description">
-            We are always in need of funds. As a first year team, we've realized how crucial funding
-            is to the success of our team. We appreciate all donations no matter size. For
-            instructions or a list of our costs/needs, please head over to the donate tab.
+            Your contributions are critical to the success of our mission! Between the costs of supporting our robotics team and 
+            some of the other programs we offer, we wouldn't be able to have such an impact in our community without the support
+            of our generous donors. All donations go directly to supporting our programs and are tax deductible, so please consider
+            making a contribution. Thank you!
         </p>
 
         <a href="{base}/donate" class="bottom--section--button">More</a>
