@@ -15,13 +15,13 @@
     <div class="hero--content">
         <br /><br />
 
-        <p class="hero--content--title">Hawkbotics</p>
-        <p class="hero--content--title">20790</p>
+        <p class="hero--content--title">Hawkbot1cs</p>
+        
 
         <br />
 
         <p class="hero--content--subtitle">
-            Welcome to Southridge High School's Robotics Club, Hawkbot1cs!
+            Welcome to the official website of the Hawkbot1cs nonprofit and its community FIRST Tech Challenge robotics team, Hawkbot1cs!
         </p>
 
         <br />
@@ -45,13 +45,13 @@
 
             <div class="features--item--content">
                 <p class="features--item--content--title">
-                    Develop Lifelong Engineering and Coding Skills!
+                    Teach and Develop Lifelong STEM Skills!
                 </p>
 
                 <p class="features--item--content--description">
-                    Each year, our job market is changing with fresh new technology and ideas. The
-                    next generation must be capable of showing great coding and engineering skills
-                    to be competitive in our 21st century work environment.
+                    Each year, our society continues to develop and adapt to new technology and ideas. Our
+                    primary mission is to prepare youth in the community by providing STEM education (specifically
+                     through robotics) so that they can be the future of this technological development in order to be competitive in the 21st century.
                 </p>
             </div>
         </div>
@@ -96,11 +96,11 @@
             <i class="fa-solid fa-signal" />
 
             <div class="features--item--content">
-                <p class="features--item--content--title">Have Fun!</p>
+                <p class="features--item--content--title">Be Inclusive and Have Fun!</p>
 
                 <p class="features--item--content--description">
                     What better way to learn, than to be surrounded by supportive, like-minded team
-                    members in a casual and engaging environment. When it comes to robotics, this
+                    members in a casual and engaging environment? When it comes to STEM education and robotics specifically, this
                     team's motto is, "Just bring yourself. We'll fill you in on the rest later."
                 </p>
             </div>
