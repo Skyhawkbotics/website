@@ -69,7 +69,7 @@
             margin-left: 3rem;
         }
     .section-heading {
-        font-family: "Open Sans", serif;
+        font-family: "Open Sans", sans-serif;
         font-size: 20pt;
         font-weight: bold;
         color: $pageText;
