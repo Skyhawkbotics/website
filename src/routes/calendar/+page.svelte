@@ -5,7 +5,7 @@
 </script>
 <p class="about--text">Part of achieving our mission is reaching as many people in our community as we can. The best way for us to do this is through community events and inviting the community to watch us and participate in our robotics tournaments. Below you will find an updated calendar of our events. Be sure to keep a close eye on it as the details may change. We hope to see you around!
 </p>
-<iframe src="https://calendar.google.com/calendar/embed?src=b0fb96e1294f994fa5f7c72877c1ca5e7976e0a7bd38df8d91902371f1756aba%40group.calendar.google.com&ctz=UTC" style="border: 5px solid white;" width="1000" height="750" frameborder="0" scrolling="no"></iframe>
+<div align="center"><iframe src="https://calendar.google.com/calendar/embed?src=b0fb96e1294f994fa5f7c72877c1ca5e7976e0a7bd38df8d91902371f1756aba%40group.calendar.google.com&ctz=UTC" style="border: 5px solid white;" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
 
 <style lang="scss">
     @import "$styles/variables";
