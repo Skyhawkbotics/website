@@ -21,7 +21,7 @@
         <br />
 
         <p class="hero--content--subtitle">
-            Welcome to the official website of the Hawkbot1cs nonprofit and its community FIRST Tech Challenge robotics team, Hawkbot1cs!
+            Welcome to the official website of the Hawkbot1cs nonprofit and its community FIRST Tech Challenge robotics team, Hawkbot1cs 20790!
         </p>
 
         <br />
