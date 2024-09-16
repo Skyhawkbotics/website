@@ -15,7 +15,12 @@
 
   <p class="section-title" class:open={$isMenuOpen}>Documents</p>
   <p class="section-heading" class:open={$isMenuOpen}>Articles of Incorporation</p>  
-
+    <body>
+        <h1>PDF Example by Object Tag</h1>
+        <object data="/src/assets/ArticlesOfIncorporation23.pdf.PDF" type="application/pdf" width="100%" height="500px">
+          <p>Unable to display PDF file. <a href="/src/assets/ArticlesOfIncorporation23.pdf.PDF">Download</a> instead.</p>
+        </object>
+      </body>
   <p class="section-heading" class:open={$isMenuOpen}>Bylaws</p>
 
   <p class="section-heading" class:open={$isMenuOpen}>Form 1023-EZ</p>
