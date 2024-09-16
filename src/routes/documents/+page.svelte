@@ -14,13 +14,13 @@
     </p>
 
   <p class="section-title" class:open={$isMenuOpen}>Documents</p>
-  <p class="section-heading" class:open{$isMenuOpen}>Articles of Incorporation</p>  
+  <p class="section-heading" class:open={$isMenuOpen}>Articles of Incorporation</p>  
 
-  <p class="section-heading" class:open{$isMenuOpen}>Bylaws</p>
+  <p class="section-heading" class:open={$isMenuOpen}>Bylaws</p>
 
-  <p class="section-heading" class:open{$isMenuOpen}>Form 1023-EZ</p>
+  <p class="section-heading" class:open={$isMenuOpen}>Form 1023-EZ</p>
 
-  <p class="section-heading" class:open{$isMenuOpen}>Meeting Minutes</p>
+  <p class="section-heading" class:open={$isMenuOpen}>Meeting Minutes</p>
 
 
   <p class="section-title" class:open={$isMenuOpen}>Financial Records</p>
