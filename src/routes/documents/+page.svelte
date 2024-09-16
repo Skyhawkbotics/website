@@ -50,6 +50,7 @@
             color: $pageTextDark;
             font-family: "Open Sans", sans-serif;
             font-size: 11pt;
+            margin-left: 5rem;
         }
 
         img {
