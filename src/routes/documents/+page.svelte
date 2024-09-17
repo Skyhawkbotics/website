@@ -16,7 +16,7 @@
 
   <p class="section-title" class:open={$isMenuOpen}>Documents</p>
     <p class="section-heading" class:open={$isMenuOpen}>Articles of Incorporation</p>  
-    <p>Unable to display PDF file. <a href=$assets/documents/ArticlesOfIncorporation23.pdf">Download</a> instead.</p>
+      <p>Unable to display PDF file. <a href=$assets/documents/ArticlesOfIncorporation23.pdf">Download</a> instead.</p>
 
   <p class="section-heading" class:open={$isMenuOpen}>Bylaws</p>
 
