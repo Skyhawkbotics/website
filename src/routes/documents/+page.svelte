@@ -3,6 +3,10 @@
 
     import robot from "$assets/robot.jpeg";
     import ArticlesOfIncorporation23 from "$assets/documents/ArticlesOfIncorporation23.pdf";
+    import Bylaws from "$assets/documents/Hawkbot1cs Bylaws.pdf";
+    import Form from "$assets/documents/CopyOfForm1023-EZ.pdf";
+
+
 </script>
 
 <svelte:head>
@@ -19,8 +23,14 @@
     </object>
 
   <p class="section-heading" class:open={$isMenuOpen}>Bylaws</p>
+     <object data={Bylaws} type="application/pdf" width="50%" height="500px">
+        <p>Unable to display PDF file. <a href={Bylaws}>Download</a> instead.</p>
+    </object>
 
   <p class="section-heading" class:open={$isMenuOpen}>Form 1023-EZ</p>
+     <object data={Form} type="application/pdf" width="50%" height="500px">
+        <p>Unable to display PDF file. <a href={Form}>Download</a> instead.</p>
+    </object>
 
   <p class="section-heading" class:open={$isMenuOpen}>Meeting Minutes</p>
 
