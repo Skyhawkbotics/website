@@ -24,20 +24,26 @@
         </object>
     </div>
 
-  <p class="section-heading" class:open={$isMenuOpen}>Bylaws</p>
-     <object data={Bylaws} type="application/pdf" width="50%" height="500px">
-        <p>Unable to display PDF file. <a href={Bylaws}>Download</a> instead.</p>
-    </object>
+    <p class="section-heading" class:open={$isMenuOpen}>Bylaws</p>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <object data={Bylaws} type="application/pdf" width="50%" height="500px">
+            <p>Unable to display PDF file. <a href={Bylaws}>Download</a> instead.</p>
+        </object>
+    </div>
 
-  <p class="section-heading" class:open={$isMenuOpen}>Form 1023-EZ</p>
-     <object data={Form} type="application/pdf" width="50%" height="500px">
-        <p>Unable to display PDF file. <a href={Form}>Download</a> instead.</p>
-    </object>
+    <p class="section-heading" class:open={$isMenuOpen}>Form 1023-EZ</p>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <object data={Form} type="application/pdf" width="50%" height="500px">
+            <p>Unable to display PDF file. <a href={Form}>Download</a> instead.</p>
+        </object>
+    </div>
 
-  <p class="section-heading" class:open={$isMenuOpen}>Meeting Minutes</p>
-     <object data={Minutes} type="application/pdf" width="50%" height="500px">
-        <p>Unable to display PDF file. <a href={Minutes}>Download</a> instead.</p>
-    </object>
+    <p class="section-heading" class:open={$isMenuOpen}>Meeting Minutes</p>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <object data={Minutes} type="application/pdf" width="50%" height="500px">
+            <p>Unable to display PDF file. <a href={Minutes}>Download</a> instead.</p>
+        </object>
+    </div>
 
   <p class="section-title" class:open={$isMenuOpen}>Financial Records</p>
 <p class="about--text"> No records to display at this moment! We will update this as soon as possible. </p>
