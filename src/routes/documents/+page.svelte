@@ -14,7 +14,9 @@
 
   <p class="section-title">Documents</p>
     <p class="section-heading">Articles of Incorporation</p>  
-      <p>OPEN <a href=$assets/documents/ArticlesOfIncorporation23.pdf">AOI</a>.</p>
+     <object data={ArticlesOfIncorporation23} type="application/pdf" width="100%" height="500px">
+        <p>Unable to display PDF file. <a href={ArticlesOfIncorporation23}>Download</a> instead.</p>
+    </object>
 
   <p class="section-heading" class:open={$isMenuOpen}>Bylaws</p>
 
