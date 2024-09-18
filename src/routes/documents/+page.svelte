@@ -18,7 +18,7 @@
 
   <p class="section-title">Documents</p>
     <p class="section-heading">Articles of Incorporation</p>
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;"> 
+    <div style="display: flex; justify-content: center; align-items: center; height: 10vh;"> 
         <object data={ArticlesOfIncorporation23} type="application/pdf" width="50%" height="500px">
             <p>Unable to display PDF file. <a href={ArticlesOfIncorporation23}>Download</a> instead.</p>
         </object>
