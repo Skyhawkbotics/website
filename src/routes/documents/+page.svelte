@@ -19,28 +19,28 @@
   <p class="section-title">Documents</p>
     <p class="section-heading">Articles of Incorporation</p>
     <div style="display: flex; justify-content: center; align-items: center:"> 
-        <object data={ArticlesOfIncorporation23} type="application/pdf" width="50%" height="500px">
+        <object data={ArticlesOfIncorporation23} type="application/pdf" width="100%" height="500px">
             <p>Unable to display PDF file. <a href={ArticlesOfIncorporation23}>Download</a> instead.</p>
         </object>
     </div>
 
     <p class="section-heading" class:open={$isMenuOpen}>Bylaws</p>
     <div style="display: flex; justify-content: center; align-items: center;">
-        <object data={Bylaws} type="application/pdf" width="50%" height="500px">
+        <object data={Bylaws} type="application/pdf" width="100%" height="500px">
             <p>Unable to display PDF file. <a href={Bylaws}>Download</a> instead.</p>
         </object>
     </div>
 
     <p class="section-heading" class:open={$isMenuOpen}>Form 1023-EZ</p>
     <div style="display: flex; justify-content: center; align-items: center;">
-        <object data={Form} type="application/pdf" width="50%" height="500px">
+        <object data={Form} type="application/pdf" width="100%" height="500px">
             <p>Unable to display PDF file. <a href={Form}>Download</a> instead.</p>
         </object>
     </div>
 
     <p class="section-heading" class:open={$isMenuOpen}>Meeting Minutes</p>
     <div style="display: flex; justify-content: center; align-items: center;">
-        <object data={Meeting} type="application/pdf" width="50%" height="500px">
+        <object data={Meeting} type="application/pdf" width="100%" height="500px">
             <p>Unable to display PDF file. <a href={Meeting}>Download</a> instead.</p>
         </object>
     </div>
