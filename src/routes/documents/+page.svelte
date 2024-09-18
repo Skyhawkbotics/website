@@ -3,7 +3,7 @@
 
     import robot from "$assets/robot.jpeg";
     import ArticlesOfIncorporation23 from "$assets/documents/ArticlesOfIncorporation23.pdf";
-    import Bylaws from "$assets/documents/Hawkbot1cs Bylaws.pdf";
+    import Bylaws from "$assets/documents/Hawkbot1csBylaws.pdf";
     import Form from "$assets/documents/CopyOfForm1023-EZ.pdf";
 
 
