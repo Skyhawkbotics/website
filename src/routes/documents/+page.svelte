@@ -5,7 +5,7 @@
     import ArticlesOfIncorporation23 from "$assets/documents/ArticlesOfIncorporation23.pdf";
     import Bylaws from "$assets/documents/Hawkbot1csBylaws.pdf";
     import Form from "$assets/documents/CopyOfForm1023-EZ.pdf";
-
+    import Minutes from "assets/documents/MeetingMinutesM3-24.pdf";
 
 </script>
 
@@ -33,7 +33,9 @@
     </object>
 
   <p class="section-heading" class:open={$isMenuOpen}>Meeting Minutes</p>
-
+     <object data={Minutes} type="application/pdf" width="50%" height="500px">
+        <p>Unable to display PDF file. <a href={Minutes}>Download</a> instead.</p>
+    </object>
 
   <p class="section-title" class:open={$isMenuOpen}>Financial Records</p>
 <p class="about--text"> No records to display at this moment! We will update this as soon as possible. </p>
