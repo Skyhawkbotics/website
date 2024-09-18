@@ -88,7 +88,7 @@
         font-size: 20pt;
         font-weight: bold;
         color: $pageText;
-        margin-left: 3rem;
+        margin-left: 5rem;
 
         &:not(.open) {
             margin-left: 3rem;
