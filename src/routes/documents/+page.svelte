@@ -14,7 +14,7 @@
 
   <p class="section-title">Documents</p>
     <p class="section-heading">Articles of Incorporation</p>  
-     <object data={ArticlesOfIncorporation23} type="application/pdf" width="100%" height="500px">
+     <object data={ArticlesOfIncorporation23} type="application/pdf" width="50%" height="500px">
         <p>Unable to display PDF file. <a href={ArticlesOfIncorporation23}>Download</a> instead.</p>
     </object>
 
