@@ -81,6 +81,7 @@
         &:not(.open) {
             margin-left: 3rem;
         }
+    }
  
     .section-header {
         font-family: "Open Sans", sans-serif;
