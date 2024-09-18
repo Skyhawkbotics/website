@@ -5,7 +5,7 @@
     import ArticlesOfIncorporation23 from "$assets/documents/ArticlesOfIncorporation23.pdf";
     import Bylaws from "$assets/documents/Hawkbot1csBylaws.pdf";
     import Form from "$assets/documents/CopyOfForm1023-EZ.pdf";
-    import Meeting from "assets/documents/MeetingMinutesM3-24.pdf";
+    import Meeting from "$assets/documents/MeetingMinutesM3-24.pdf";
 
 </script>
 
