@@ -1,3 +1,4 @@
+<script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
 <script lang="ts">
     import { isMenuOpen } from "$stores/menu";
 
