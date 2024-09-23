@@ -5,7 +5,7 @@
 </script>
 <p class="about--text">Part of achieving our mission is reaching as many people in our community as we can. The best way for us to do this is through community events and inviting the community to watch us and participate in our robotics tournaments. Below you will find an updated calendar of our events. Be sure to keep a close eye on it as the details may change. We hope to see you around!
 </p>
-<iframe src="https://embed.styledcalendar.com/#26Y3g6u0smOUcKuhVfpm" title="Styled Calendar" class="styled-calendar-container" style="width: 80%; border: none;" data-cy="calendar-embed-iframe"></iframe>
+<iframe src="https://embed.styledcalendar.com/#26Y3g6u0smOUcKuhVfpm" title="Styled Calendar" class="styled-calendar-container" style="width: 80%; height: 100%; border: none;" data-cy="calendar-embed-iframe"></iframe>
 
 
 <style lang="scss">
