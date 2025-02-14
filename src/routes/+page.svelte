@@ -236,10 +236,9 @@
     }
 
     .section-title {
-        font-family: "Press Start 2P", serif;
-        font-weight: 400;
-        font-style: normal;
+        font-family: "Roboto Slab", serif;
         font-size: 40pt;
+        font-weight: bold;
         color: $pageText;
         margin-left: 5rem;
 
@@ -335,9 +334,10 @@
 
             &--title {
                 color: $pageText;
-                font-family: "Roboto Slab", serif;
+                font-family: "Press Start 2P", serif;
+                font-weight: 400;
+                font-style: normal;
                 font-size: 40pt;
-                font-weight: bold;
                 margin: 0;
             }
 
