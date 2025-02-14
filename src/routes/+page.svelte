@@ -333,7 +333,7 @@
             margin-right: 0.5rem;
 
             &--title {
-                color: $pageText;
+                color: $headerLogoTextStrong;
                 font-family: "Press Start 2P", serif;
                 font-weight: 400;
                 font-style: normal;
