@@ -15,7 +15,7 @@
     <div class="hero--content">
         <br /><br />
 
-        <p class="hero--content--title">Hawkbot1cs</p>
+        <p class="hero--content--title">Home | Hawkbot1cs</p>
         
 
         <br />
