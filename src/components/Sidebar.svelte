@@ -158,7 +158,7 @@
         }
     }
 
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 1460px) {
         .sidebar {
             position: absolute;
             z-index: 1;
