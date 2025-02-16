@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Our Work</title>
+    <title>Our Work | Hawkbot1cs</title>
 </svelte:head>
 
 <p class="section-title" class:open={$isMenuOpen}>Our Work</p>

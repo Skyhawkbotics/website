@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Get Involved!</title>
+    <title>Get Involved! | Hawkbot1cs</title>
 </svelte:head>
 
 <p class="section-title" class:open={$isMenuOpen}>How to Join Us</p>
