@@ -371,7 +371,7 @@
         }
 
         &--image {
-            width: calc(50% - 1rem);
+            height: calc(100% - 1rem);
             margin-left: 0.5rem;
         }
     }
