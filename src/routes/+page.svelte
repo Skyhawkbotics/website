@@ -8,14 +8,14 @@
 </script>
 
 <svelte:head>
-    <title>Hawkbot1cs</title>
+    <title>Home | Hawkbot1cs</title>
 </svelte:head>
 
 <section id="main" class="section hero" class:open={$isMenuOpen}>
     <div class="hero--content">
         <br /><br />
 
-        <p class="hero--content--title">Home | Hawkbot1cs</p>
+        <p class="hero--content--title">Hawkbot1cs</p>
         
 
         <br />
