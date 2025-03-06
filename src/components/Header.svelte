@@ -9,7 +9,7 @@
     <Hamburger bind:value={$isMenuOpen} />
 
     <div class="header">
-        <a href="{base}/" class="header--logo"><strong>Hawkbotics</strong> 20790</a>
+        <a href="{base}/" class="header--logo"><strong>Hawkbot1cs</strong> 20790</a>
 
         <div class="header--icons">
             <a href="https://www.twitter.com/SkyHawk03350366" target="_blank" rel="noreferrer"

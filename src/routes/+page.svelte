@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-    <title>Hawkbot1cs</title>
+    <title>Home | Hawkbot1cs</title>
 </svelte:head>
 
 <section id="main" class="section hero" class:open={$isMenuOpen}>
@@ -333,10 +333,11 @@
             margin-right: 0.5rem;
 
             &--title {
-                color: $pageText;
-                font-family: "Roboto Slab", serif;
+                color: $headerLogoTextStrong;
+                font-family: "Press Start 2P", serif;
+                font-weight: 400;
+                font-style: normal;
                 font-size: 40pt;
-                font-weight: bold;
                 margin: 0;
             }
 
@@ -370,7 +371,7 @@
         }
 
         &--image {
-            width: calc(50% - 1rem);
+            height: calc(100% - 1rem);
             margin-left: 0.5rem;
         }
     }
