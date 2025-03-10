@@ -7,25 +7,28 @@
 <html>
 	<head>
 		<title>Home | Hawkbot1cs</title>
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
 			
 			<!-- Header -->
-				<div id="nav-placeholder">
-
-				</div>
-			
-				<script>
-					$(function(){
-						$("#nav-placeholder").load("components/nav.html");
+			<header id="header">
+				<div id="nav-placeholder"></div>
+			</header>
+				
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script>
+				$("#nav-placeholder").load("../components/nav.html", function() {
+					$('#nav > ul').dropotron({
+						alignment: 'center',
+						hideDelay: 300
 					});
-				</script>
+				});
+			</script>
 
 			<!-- Banner -->
 				<section id="banner">
@@ -34,14 +37,14 @@
 							<h2><span class=hawkbot1cslogo>Hawkbot1cs</span></h2>
 							<p>Welcome to the official website of the Hawkbot1cs nonprofit <br> and its community FIRST Tech Challenge <br> robotics team, Hawkbot1cs 20790!</p>
 						</header>
-						<span class="image"><img src="images/invertedhawk.png" alt="" /></span>
+						<span class="image"><img src="../images/invertedhawk.png" alt="" /></span>
 					</div>
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
 
 			<!-- One -->
 				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/teamatwork.jpg" alt="" /></span>
+					<span class="image fit main"><img src="../images/teamatwork.jpg" alt="" /></span>
 					<div class="content">
 						<div class="container">
 							<div class="row">
@@ -66,13 +69,13 @@
 
 			<!-- Two -->
 				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/clubfair.jpg" alt="" /></span>
+					<span class="image fit main"><img src="../images/clubfair.jpg" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Outreach</h2>
 							<p>STEM in the community</p>
 						</header>
-						<p>Stimulting interest within STEM accross all demographics is vital to building a modern future everyone can help participate in and build. We accomplish this key aspect of our mission by attending science fairs, participating in STEM related community service events, and hosting fundraisers to allow everyone to get involved.</p>
+						<p>We attend science fairs, participating in STEM related community service events, and hosting fundraisers to allow everyone to get involved in a key aspect of our mission.</p>
 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul>
@@ -82,13 +85,13 @@
 
 			<!-- Three -->
 				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<span class="image fit main bottom"><img src="../images/clubfair2.jpg" alt="" /></span>
 					<div class="content">
 						<header>
-							<h2>Interdum felis blandit praesent sed augue</h2>
-							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+							<h2>Nonprofit Mission</h2>
+							<p>Stimulate interest in STEM and provide oppertunities at a low or no cost</p>
 						</header>
-						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<p>The Hawkbot1cs nonprofit has a mission to stimulate STEM in the community, as stimulting interest within STEM accross all demographics is vital to building a modern future everyone can help participate in and build.</p>
 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul>
@@ -100,20 +103,20 @@
 				<section id="four" class="wrapper style1 special fade-up">
 					<div class="container">
 						<header class="major">
-							<h2>How well has our organization performed?</h2>
-							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+							<h2>This Season's Stats</h2>
+							<p>How well has Hawkbot1cs performed in the INTO THE DEEP season?</p>
 						</header>
 						<div class="box alt">
 							<div class="row gtr-uniform">
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-chart-area"></span>
 									<h3>8.4X Score Improvement</h3>
-									<p>Since Leage Meet 1 in the Silicon Forest League, we have increased our npOPR average by 8.4X at Spark Invitational.</p>
+									<p>Since League Meet 1 in the Silicon Forest League, we have increased our npOPR average by 8.4X at Spark Invitational.</p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-comment"></span>
-									<h3>Eleifend lorem ornare</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<h3>4X Autonomous Improvement</h3>
+									<p>Since INSERT EVENT, we have improved our auto from 1+0 to 4+0 at Spark Invitational.</p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-flask"></span>
@@ -122,18 +125,18 @@
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-paper-plane"></span>
-									<h3>Non semper interdum</h3>
+									<h3>2.25X More Instagram Followers</h3>
 									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-file"></span>
-									<h3>Odio laoreet accumsan</h3>
+									<h3>7 School Outreach Events</h3>
 									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-lock"></span>
-									<h3>Massa arcu accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<h3>3 Fundraisers</h3>
+									<p>We have hosted three fundraisers to help keep our FTC program free of charge!</p>
 								</section>
 							</div>
 						</div>
@@ -171,14 +174,14 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
 
 	</body>
 </html>
