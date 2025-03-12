@@ -1,6 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Oxanium:100,300,100italic,300italic");
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Press+Start+2P&display=swap');
 
 /*
 	Landed by HTML5 UP
@@ -133,7 +132,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 400;
 	}
 
 	em, i {
@@ -2534,7 +2533,6 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background-image: url("images/overlay.png");
 			width: 100%;
 			height: 100%;
 			z-index: 1;
