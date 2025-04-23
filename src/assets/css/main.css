@@ -2482,7 +2482,7 @@ input, select, textarea {
 			}
 
 		.icon.major {
-			background: #272833;
+			background: #00000000;
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -2494,7 +2494,7 @@ input, select, textarea {
 		}
 
 			.icon.major:before {
-				font-size: 2.25em;
+				font-size: 4em;
 			}
 
 			.icon.major.alt {
@@ -2515,7 +2515,7 @@ input, select, textarea {
 				}
 
 				.icon.major.alt:before {
-					color: #272833 !important;
+					color: #db201e !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
 
