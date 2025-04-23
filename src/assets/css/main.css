@@ -3154,11 +3154,11 @@ input, select, textarea {
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #db201e;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #db201e;
 		}
 
 		.spotlight.inactive .content {
@@ -3575,7 +3575,6 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			line-height: 1em;
-			margin: 2em 0 0 0;
 			padding: 0;
 			text-align: center;
 		}
