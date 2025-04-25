@@ -23,12 +23,16 @@
 				
 			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 			<script>
-				$("#nav-placeholder").load("components/nav.html", function() {
-					$('#nav > ul').dropotron({
-						alignment: 'center',
-						hideDelay: 300
-					});
+			// Wait for the DOM *and* the snippet
+			$(function () {
+				$("#nav-placeholder").load("components/nav.html", function () {
+				// Activate dropdowns now that #nav exists
+				$('#nav > ul').dropotron({ alignment: 'center', hideDelay: 300 });
+
+				// Dynamically pull in main.js only after navbar is present
+				$.getScript("assets/js/main.js");
 				});
+			});
 			</script>
 
 			<!-- Main -->
@@ -102,7 +106,5 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
