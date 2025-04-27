@@ -14,50 +14,11 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload landing">
-		<div id="page-wrapper">
-			<!-- Scripts -->
-			<!-- 1️⃣   ONE copy of jQuery — keep the CDN or the local file, not both -->
-				<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
-
-				<!-- 2️⃣   Plugins that extend jQuery -->
-				<script src="assets/js/jquery.scrolly.min.js" defer></script>
-				<script src="assets/js/jquery.dropotron.min.js" defer></script>
-				<script src="assets/js/jquery.scrollex.min.js"  defer></script>
-
-				<!-- 3️⃣   HTML5-UP helper files -->
-				<script src="assets/js/browser.min.js" defer></script>
-				<script src="assets/js/breakpoints.min.js" defer></script>
-				<script src="assets/js/util.js" defer></script>
-				<script src="assets/js/main.js" defer></script>
-
-				<!-- 4️⃣   Your own code, *after* everything it depends on -->
-				<script defer>
-					window.addEventListener('DOMContentLoaded', () => {
-					// pull in navbar, then let main.js (already loaded) do its thing
-					$('#nav-placeholder').load('components/nav.html');
-				
-					// footer (optional)
-					$('#footer-placeholder').load('components/footer.html');
-					});
-				</script>
-			
+		<div id="page-wrapper">			
 			<!-- Header -->
 			<header id="header">
 				<div id="nav-placeholder"></div>
 			</header>
-				
-			<script>
-			// Wait for the DOM *and* the snippet
-			$(function () {
-				$("#nav-placeholder").load("components/nav.html", function () {
-				// Activate dropdowns now that #nav exists
-				$('#nav > ul').dropotron({ alignment: 'center', hideDelay: 300 });
-
-				// Dynamically pull in main.js only after navbar is present
-				$.getScript("assets/js/main.js");
-				});
-			});
-			</script>
 
 			<!-- Banner -->
 				<section id="banner">
@@ -196,15 +157,34 @@
 
 			<!-- Footer -->
 				<div id="footer-placeholder"></div>
-
-				<script>
-					$("#footer-placeholder").load("components/footer.html", function() {
-						$('#footer > ul').dropotron({
-							alignment: 'center',
-							hideDelay: 300
-						});
-					});
-				</script>
 		</div>
+	<!-- Scripts -->
+		<!-- 1️⃣   ONE copy of jQuery — keep the CDN or the local file, not both -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+		<!-- 2️⃣   Plugins that extend jQuery -->
+		<script src="assets/js/jquery.scrolly.min.js" defer></script>
+		<script src="assets/js/jquery.dropotron.min.js" defer></script>
+		<script src="assets/js/jquery.scrollex.min.js"  defer></script>
+
+		<!-- 3️⃣   HTML5-UP helper files -->
+		<script src="assets/js/browser.min.js" defer></script>
+		<script src="assets/js/breakpoints.min.js" defer></script>
+		<script src="assets/js/util.js" defer></script>
+		<script src="assets/js/main.js" defer></script>
+
+		<!-- 4️⃣   Your own code, *after* everything it depends on -->
+		<script>
+			$(function () {
+				$('#nav-placeholder').load('components/nav.html', function () {
+					$('#nav > ul').dropotron({ alignment:'center', hideDelay:300 });
+					// now, and only now, bring in HTML5-UP’s main.js
+					$.getScript('assets/js/main.js');
+				});
+			
+				// footer stays the same
+				$('#footer-placeholder').load('components/footer.html');
+			});
+		</script>
 	</body>
 </html>
