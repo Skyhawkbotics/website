@@ -159,32 +159,38 @@
 				<div id="footer-placeholder"></div>
 		</div>
 	<!-- Scripts -->
-		<!-- 1️⃣   ONE copy of jQuery — keep the CDN or the local file, not both -->
+		<!-- single, sync copy of jQuery -->
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-		<!-- 2️⃣   Plugins that extend jQuery -->
-		<script src="assets/js/jquery.scrolly.min.js" defer></script>
+		<!-- jQuery plugins the template needs -->
 		<script src="assets/js/jquery.dropotron.min.js" defer></script>
+		<script src="assets/js/jquery.scrolly.min.js"   defer></script>
 		<script src="assets/js/jquery.scrollex.min.js"  defer></script>
 
-		<!-- 3️⃣   HTML5-UP helper files -->
-		<script src="assets/js/browser.min.js" defer></script>
+		<!-- HTML5-UP helpers -->
+		<script src="assets/js/browser.min.js"     defer></script>
 		<script src="assets/js/breakpoints.min.js" defer></script>
-		<script src="assets/js/util.js" defer></script>
-		<script src="assets/js/main.js" defer></script>
+		<script src="assets/js/util.js"            defer></script>
 
-		<!-- 4️⃣   Your own code, *after* everything it depends on -->
+		<!-- your loader – keep it inline, *after* jQuery, before </body> -->
 		<script>
 			$(function () {
 				$('#nav-placeholder').load('components/nav.html', function () {
-					$('#nav > ul').dropotron({ alignment:'center', hideDelay:300 });
-					// now, and only now, bring in HTML5-UP’s main.js
-					$.getScript('assets/js/main.js');
+				
+					// Pull in main.js *once nav exists*
+					$.getScript('assets/js/main.js', function () {
+					/* ------------- NEW --------------- */
+					// Ensure HTML5-UP’s on-load logic runs even
+					// if the real load event has already happened.
+					$(window).trigger('load');    // <-— option A
+					// OR simply: $('body').removeClass('is-preload'); // option B
+					/* --------------------------------- */
+					});
+				
 				});
-			
-				// footer stays the same
+				
 				$('#footer-placeholder').load('components/footer.html');
-			});
-		</script>
+				});
+				</script>			
 	</body>
 </html>
