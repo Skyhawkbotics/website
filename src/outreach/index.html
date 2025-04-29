@@ -58,29 +58,31 @@
 												<ul class="splide__list">
 													<li class="splide__slide">
 														<img src="images/2025sextonmtnfair.jpg" alt="">
+														<div>Sexton Mountain Elementary Science Fair</div>
 													</li>
 													<li class="splide__slide">
 														<img src="images/heitonfair.jpg" alt="">
+														<div>Hiteon Elementary Science Fair</div>
 													</li>
 													<li class="splide__slide">
 														<img src="images/whitfordfair.jpg" alt="">
+														<div>Whitford Middle School Science Fair</div>
 													</li>
 													<li class="splide__slide">
 														<img src="images/mhsclubpresentation.jpg" alt="" />
+														<div>Mountainside High School Game Development Club Presentation</div>
 													</li>
 													<li class="splide__slide">
 														<img src="images/mhscirriculumnight.jpeg" alt="" />
+														<div>Mountainside High School Curriculum Night</div>
 													</li>
 													<li class="splide__slide">
 														<img src="images/25edriveteam.jpg" alt="" />
+														<div>MPACT Electronics Drive</div>
 													</li>
 												</ul>
 											</div>
 										</section>
-										<p>Pictures Left to Right (Top First): <br>
-											Sexton Mountain Elemetary Science fair, Hiteon Elemetary Science Fair, Whitford MS Science Fair;
-											<br> MHS Game Development Club, MHS Curriculum night,
-											MPACT Electronics Drive </p>
 										<h3>Our Outreach Mission Statement</h3>
 										<!--TODO: Finish this section-->
 										<p>Our goal with Outreach is to Encourage Students of all ages and backgrounds to participate in <em>FIRST</em><sup>®</sup> robotics programs. We believe that <em>FIRST</em><sup>®</sup> robotics <strong> prepares students for the future</strong> by building <strong>skills, confidence, and connections</strong>. We <strong>actively advocate</strong> for our mission through <strong>involvement and service in our own community.</strong></p>
@@ -155,8 +157,9 @@
 				document.addEventListener('DOMContentLoaded', () => {
 				  /* Basic example — tweak to taste */
 				new Splide('.splide', {
-				type    : 'loop',
+				type : 'loop',
 				perPage : 1,
+				pagination: false,
 				autoplay: true,
 				pauseOnHover: true,
 				breakpoints: {
