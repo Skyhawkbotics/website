@@ -47,16 +47,27 @@
 							<div class="col-8 col-12-medium">
 
 								<!-- Content -->
-									<section id="content">
-										<div class="row gtr-50 gtr-uniform">
-											<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/2025sextonmtnfair.jpg" alt="" /></span></div>
-											<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/heitonfair.jpg" alt="" /></span></div>
-											<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/whitfordfair.jpg" alt="" /></span></div>
-											<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/mhsclubpresentation.jpg" alt="" /></span></div>
-											<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/mhscirriculumnight.jpeg" alt="" /></span></div>
-											<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/ornaments.png" alt="" /></span></div>
-											<p></p>
-										</div>
+									<style>
+										.splide__slide img {
+											width: 100%;
+											height: auto;
+										}
+									</style>
+										<section id="image-carousel" class="splide" aria-label="Beautiful Images">
+											<div class="splide__track">
+												<ul class="splide__list">
+													<li class="splide__slide">
+														<img src="images/2025sextonmtnfair.jpg" alt="">
+													</li>
+													<li class="splide__slide">
+														<img src="images/heitonfair.jpg" alt="">
+													</li>
+													<li class="splide__slide">
+														<img src="images/whitfordfair.jpg" alt="">
+													</li>
+												</ul>
+											</div>
+										</section>
 										<p>Pictures Left to Right (Top First): <br>
 											Sexton Mountain Elemetary Science fair, Hiteon Elemetary Science Fair, Whitford MS Science Fair;
 											<br> MHS Game Development Club, MHS Curriculum night,
@@ -129,5 +140,23 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/splide.min.js"></script>
+
+			<script>
+				/* Run when the DOM is ready and Splide is loaded */
+				document.addEventListener('DOMContentLoaded', () => {
+				  /* Basic example — tweak to taste */
+				new Splide('.splide', {
+				type    : 'loop',
+				perPage : 1,
+				autoplay: true,
+				pauseOnHover: true,
+				height: `30em`,
+				breakpoints: {
+					1024: { perPage: 2 },
+					640 : { perPage: 1 }
+				}
+				}).mount();
+			});
+			</script>
 	</body>
 </html>
