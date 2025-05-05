@@ -62,13 +62,16 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
-											<h3>Magna Feugiat</h3>
-											<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
-											<footer>
-												<ul class="actions">
-													<li><a href="#" class="button">Learn More</a></li>
-												</ul>
-											</footer>
+											<div id="sidebar1-placeholder"></div>
+
+											<script>
+												$("#sidebar1-placeholder").load("Templates/sidebarcontent.html", function() {
+													$().dropotron({
+														alignment: 'center',
+														hideDelay: 300
+													});
+												});
+											</script>
 										</section>
 										<hr />
 										<section>
