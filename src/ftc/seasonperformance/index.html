@@ -61,14 +61,16 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-											<h3>Our Robot</h3>
-											<p>Learn about the robot that has helped us drastically improve our performance and brought us to new heights!</p>
-											<footer>
-												<ul class="actions">
-													<li><a href="#" class="button">Learn More</a></li>
-												</ul>
-											</footer>
+											<div id="sidebar1-placeholder"></div>
+
+											<script>
+												$("#sidebar1-placeholder").load("components/sidebar_content/25robot.html", function() {
+													$().dropotron({
+														alignment: 'center',
+														hideDelay: 300
+													});
+												});
+											</script>
 										</section>
 										<hr />
 										<section>
