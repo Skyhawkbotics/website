@@ -68,8 +68,8 @@
 												<div>Ornaments Sale</div>
 											</li>
 											<li class="splide__slide">
-												<img src="images/whitfordfair.jpg" alt="">
-												<div>Whitford Middle School Science Fair</div>
+												<img src="images/daveshotchicken.jpg" alt="">
+												<div>Dave's Hot Chicken Fundrasier</div>
 											</li>
 										</ul>
 									</div>
@@ -132,19 +132,25 @@
 			<script>
 				/* Run when the DOM is ready and Splide is loaded */
 				document.addEventListener('DOMContentLoaded', () => {
-				  /* Basic example — tweak to taste */
-				new Splide('.splide', {
-				type : 'loop',
-				perPage : 3,
-				pagination: false,
-				autoplay: true,
-				pauseOnHover: false,
-				breakpoints: {
-					980: { perPage: 2 },
-					640 : { perPage: 1 }
-				}
-				}).mount();
-			});
+					new Splide('.splide', {
+						type: 'loop',
+						perPage: 3,
+						pagination: false,
+						autoplay: true,
+						pauseOnHover: false,
+						arrows: false, // Default: hide arrows above 980px
+						breakpoints: {
+							980: {
+								perPage: 2,
+								arrows: true, // Show arrows at or below 980px
+							},
+							640: {
+								perPage: 1,
+								arrows: true, // Show arrows at or below 640px
+							},
+						},
+					}).mount();
+				});
 			</script>
 	</body>
 </html>
