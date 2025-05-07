@@ -136,14 +136,17 @@
 						autoplay: true,
 						pauseOnHover: false,
 						arrows: false, // Default: hide arrows above 980px
+						drag: false, // Disable dragging
 						breakpoints: {
 							980: {
 								perPage: 2,
 								arrows: true, // Show arrows at or below 980px
+								drag: true, // Enable dragging at or below 980px
 							},
 							640: {
 								perPage: 1,
 								arrows: true, // Show arrows at or below 640px
+								drag: true, // Enable dragging at or below 640px
 							},
 						},
 					}).mount();
