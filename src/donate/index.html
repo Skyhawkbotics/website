@@ -11,6 +11,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/splide.min.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -46,6 +47,34 @@
 						<!-- Content -->
 							<section id="content">
 								<h4> Images of Our Past Fundraisers: </h4>
+								<style>
+									.splide__slide img {
+										width: 100%;
+										height: auto;
+									}
+									.splide__slide {
+										text-align: center;
+										font-style: italic;
+									}
+								</style>
+									<section id="image-carousel" class="splide" aria-label="Beautiful Images">
+										<div class="splide__track">
+											<ul class="splide__list">
+												<li class="splide__slide">
+													<img src="images/chipotle_fundraiser.jpg" alt="">
+													<div>Chipotle Fundraiser</div>
+												</li>
+												<li class="splide__slide">
+													<img src="images/ornaments.png" alt="">
+													<div>Ornaments Sale</div>
+												</li>
+												<li class="splide__slide">
+													<img src="images/whitfordfair.jpg" alt="">
+													<div>Whitford Middle School Science Fair</div>
+												</li>
+											</ul>
+										</div>
+									</section>
 								<div class="row gtr-50 gtr-uniform">
 									<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/2025sextonmtnfair.jpg" alt="" /></span></div>
 									<div class="col-4 col-6-xsmall"><span class="image fit"><img src="images/chipotle_fundraiser.jpg" alt="" /></span></div>
@@ -60,7 +89,7 @@
 
 								<p><span class="image left"><img src="images/progressridgeortho.jpg" alt="" /></span>
 									<h3>Our Sponsors</h3>
- 									<p>We're proud to showcase our Sponsor Progress Ridge Orthodontics Beaverton, a local Orthodontics located in the Progress Ridge townsqaure. Many of our members have had our braces done there, and we reccomend them because their supportive care and service. </p>
+									<p>We're proud to showcase our Sponsor Progress Ridge Orthodontics Beaverton, a local Orthodontics located in the Progress Ridge townsqaure. Many of our members have had our braces done there, and we reccomend them because their supportive care and service. </p>
 								</p>
 								<a href="https://progressridgeortho.com/"> Learn more about Progress Orthodontics</a> 
 								<p>.</p>
@@ -98,5 +127,24 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/splide.min.js"></script>
+
+			<script>
+				/* Run when the DOM is ready and Splide is loaded */
+				document.addEventListener('DOMContentLoaded', () => {
+				  /* Basic example — tweak to taste */
+				new Splide('.splide', {
+				type : 'loop',
+				perPage : 3,
+				pagination: false,
+				autoplay: true,
+				pauseOnHover: false,
+				breakpoints: {
+					1024: { perPage: 2 },
+					640 : { perPage: 1 }
+				}
+				}).mount();
+			});
+			</script>
 	</body>
 </html>
