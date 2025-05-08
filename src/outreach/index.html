@@ -135,7 +135,20 @@
 											</script>
 										</section>
 									</section>
+									<hr />
+									<section>
+										<div id="sidebar3-placeholder"></div>
 
+										<script>
+											$("#sidebar3-placeholder").load("components/sidebar_content/ftc.html", function() {
+												$().dropotron({
+													alignment: 'center',
+													hideDelay: 300
+												});
+											});
+										</script>
+									</section>
+								</section>
 							</div>
 						</div>
 					</div>
