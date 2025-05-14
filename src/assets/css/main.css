@@ -2573,6 +2573,12 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			box-shadow: 0 8px 16px 0 #db211e;
+			transition: 0.3s;
+		}
+
+		.image.fit:hover {
+			box-shadow: 0 16px 32px 0 #db201e;
 		}
 
 			.image.fit img {
