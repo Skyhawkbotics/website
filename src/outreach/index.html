@@ -48,13 +48,27 @@
 
 								<!-- Content -->
 									<style>
+										/* Updated CSS to remove gap on the left of the image */
 										.splide__slide img {
 											width: 100%;
 											height: auto;
+											display: block; /* Ensures no extra space around the image */
+											margin: 0; /* Removes any default margin */
 										}
 										.splide__slide {
 											text-align: center;
 											font-style: italic;
+											padding: 0; /* Ensures no padding around the slide */
+											margin: 0; /* Removes any margin */
+											border: 0; /* Ensures no border around the slide */
+										}
+										.splide__slide img {
+											width: 100%;
+											height: auto;
+											display: block;
+											margin: 0;
+											padding: 0; /* Ensures no padding inside the image */
+											border: 0; /* Ensures no border around the image */
 										}
 									</style>
 										<section id="image-carousel" class="splide" aria-label="Beautiful Images">
