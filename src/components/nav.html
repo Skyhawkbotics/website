@@ -1,5 +1,15 @@
 <!-- Header -->
 
+<script>
+    jQuery(window).on('scroll', function() {
+    if(jQuery(window).scrollTop() > 75) {
+        jQuery('#header').css('background-color', 'rgba(39, 40, 51, 0.965)');
+    } else {
+        jQuery('#header').css('background-color', 'rgba(0, 0, 0, 0)');
+    }
+});
+</script>
+
 <h1 id="logo"><span class="hawkbot1cslogo"><a href=""><img src="images/Hawkbotics_clear.png" height = 20px>   Hawkbot1cs</a></span></h1>
 <nav id="nav">
     <ul>
