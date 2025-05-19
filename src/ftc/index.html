@@ -49,7 +49,14 @@
 									<section id="content">
 										<a class="image fit"><img src="images/shortteamphoto.jpg" alt="" /></a>
 										<h3>About Our <em>FIRST<sup>®</sup></em> Tech Challenge Team</h3>
-										<p>We are Hawkbot1cs team 20790. Originally founded in 2021, our team and our ambitions have grown tremendously</p>										
+										<p>We are Hawkbot1cs team 20790. Originally founded in 2021, our team and our ambitions have grown tremendously</p>
+										<h3>Our History</h3>
+
+										
+										<div><canvas id="myChart"></canvas></div>
+
+										
+										<p></p>
 							</div>
 							<div class="col-4 col-12-medium">
 
@@ -109,5 +116,29 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+			<script>
+				const ctx = document.getElementById('myChart');
+
+				new Chart(ctx, {
+					type: 'line',
+					data: {
+					labels: ['Powerplay', 'Centerstage', 'Into The Deep'],
+					datasets: [{
+						label: 'Maximum Advancement',
+						data: [1, 4, 5],
+						borderWidth: 1
+					}]
+					},
+					options: {
+					scales: {
+						y: {
+						beginAtZero: true
+						}
+					}
+					}
+				});
+			</script>
 	</body>
 </html>
