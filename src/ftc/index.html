@@ -124,23 +124,41 @@
 				new Chart(ctx, {
 					type: 'bar',
 					data: {
-					labels: ['Powerplay', 'Centerstage', 'Into The Deep'],
-					datasets: [{
-						label: 'Maximum Advancement',
-						data: [1, 4, 5],
-						borderWidth: 1
-					}]
+						labels: ['Powerplay', 'Centerstage', 'Into The Deep'],
+						datasets: [{
+							label: 'Maximum Advancement',
+							data: [1, 4, 5],
+							borderWidth: 1,
+							backgroundColor: '#db201e', // Set bar color
+						}]
 					},
 					options: {
 						indexAxis: 'y',
 						scales: {
 							y: {
 								beginAtZero: true,
+								grid: {
+									display: true,           // Show gridlines
+									color: '#888',           // Optional: gridline color
+									lineWidth: 1             // Optional: gridline width
+								},
+								ticks: {
+									font: {
+										family: "'Oxanium', 'Press Start 2P', system-ui, sans-serif" // Match website font
+									}
+								}
 							},
 							x: {
+								grid: {
+									display: true,           // Show gridlines
+									color: '#888',           // Optional: gridline color
+									lineWidth: 1             // Optional: gridline width
+								},
 								ticks: {
+									font: {
+										family: "'Oxanium', 'Press Start 2P', system-ui, sans-serif"
+									},
 									callback: function(value, index, ticks) {
-										// Replace numbers with text based on value or index
 										if (value === 1) {
 											return 'League Championship Qualifications';
 										} else if (value === 2){
@@ -154,8 +172,17 @@
 										} else if (value === 6){
 											return 'State Championship Playoffs';
 										} else {
-											return ''; // Return empty string to hide other values
+											return '';
 										}
+									}
+								}
+							}
+						},
+						plugins: {
+							legend: {
+								labels: {
+									font: {
+										family: "'Oxanium', 'Press Start 2P', system-ui, sans-serif"
 									}
 								}
 							}
