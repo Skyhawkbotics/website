@@ -52,7 +52,7 @@
 										<p>We had a great run, making it to the Oregon Championship for the first time in our history. We are incredibly proud and honored to make it to such a prestigous event.</p>
 										<h3>INTO THE DEEP Improvements</h3>
 										<p>Since kickoff, we have made tremendous progress on our performance in the INTO THE DEEP season. Since League Meet 1, we have increased our npOPR average by 8.4X, from 15 to 122 at Spark Invitational. We have also improved our 1+0 auto from League Meet 3 to 4+0 at Spark.</p>
-										<div class="col-12"><span class="image fit"><img src="images/npoprchart.png" alt="" /></span></div>
+										<div><canvas id="myChart"></canvas></div>
 									</section>
 
 							</div>
@@ -114,5 +114,30 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+
+			<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+			<script>
+				const ctx = document.getElementById('myChart');
+
+				new Chart(ctx, {
+					type: 'bar',
+					data: {
+					labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+					datasets: [{
+						label: '# of Votes',
+						data: [12, 19, 3, 5, 2, 3],
+						borderWidth: 1
+					}]
+					},
+					options: {
+					scales: {
+						y: {
+						beginAtZero: true
+						}
+					}
+					}
+				});
+			</script>
 	</body>
 </html>
