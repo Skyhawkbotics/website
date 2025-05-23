@@ -117,21 +117,38 @@
 
 			<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+			<script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+
 			<script>
 				const ctx = document.getElementById('myChart');
 
 				new Chart(ctx, {
 					type: 'line',
 					data: {
-					labels: ['League Meet 0', 'League Meet 1', 'League Meet 2', 'League Meet 3', 'League Tournament', 'Spark Invitational', 'Oregon Championship'],
-					datasets: [{
-						label: 'npOPR',
-						data: [19.09, 14.75, 39.18, 40.14, 76.00, 122.17, 66.06],
-						borderWidth: 1
-					}]
+						labels: ['2024-10-26', '2024-11-16', '2024-12-14', '2025-01-11', '2025-02-01', '2025-02-23', '2025-03-15'],
+						datasets: [{
+							label: 'npOPR',
+							data: [
+								19.09,
+								14.75,
+								39.18,
+								40.14,
+								76.00,
+								122.17,
+								66.06
+							],
+							borderWidth: 1
+						}]
 					},
 					options: {
 					scales: {
+						x: {
+							type: 'time',
+							time: {
+								unit: 'day'
+							},
+							},
 						y: {
 						beginAtZero: true
 						}
