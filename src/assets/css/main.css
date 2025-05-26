@@ -4141,3 +4141,22 @@ input, select, textarea {
 .container {
 	padding: 0.5em 0.5em;
 }
+
+/* Flexbox layout for sticky footer */
+html, body {
+    height: 100%;
+}
+
+#page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    flex: 1 0 auto;
+}
+
+#footer-placeholder {
+    flex-shrink: 0;
+}
