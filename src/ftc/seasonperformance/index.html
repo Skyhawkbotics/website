@@ -20,7 +20,7 @@
 			<header id="header">
 				<div id="nav-placeholder"></div>
 			</header>
-				
+
 			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 			<script>
 			// Wait for the DOM *and* the snippet
@@ -52,7 +52,7 @@
 										<p>We had a great run, making it to the Oregon Championship for the first time in our history. We are incredibly proud and honored to make it to such a prestigous event.</p>
 										<h3>INTO THE DEEP Improvements</h3>
 										<p>Since kickoff, we have made tremendous progress on our performance in the INTO THE DEEP season. Since League Meet 1, we have increased our npOPR average by 8.4X, from 15 to 122 at Spark Invitational. We have also improved our 1+0 auto from League Meet 3 to 4+0 at Spark.</p>
-										<div><canvas id="myChart"></canvas></div>
+										<div class="col-12"><span class="image fit"><img src="images/npoprchart.png" alt="" /></span></div>
 									</section>
 
 							</div>
@@ -114,54 +114,3 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-
-			<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-			<script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
-			<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-
-			<script>
-				const ctx = document.getElementById('myChart');
-
-				new Chart(ctx, {
-					type: 'line',
-					data: {
-						labels: ['2024-09-07','2024-10-26', '2024-11-16', '2024-12-14', '2025-01-11', '2025-02-01', '2025-02-23', '2025-03-15','2025-04-26'],
-						datasets: [{
-							label: 'npOPR',
-							data: [
-								,19.09,
-								14.75,
-								39.18,
-								40.14,
-								76.00,
-								122.17,
-								66.06,
-							],
-							borderWidth: 3,
-							borderColor: '#db201e',
-							backgroundColor:'#db201e',
-						}]
-					},
-					options: {
-					scales: {
-						x: {
-							type: 'time',
-							time: {
-								unit: 'day'
-							},
-							grid: {
-									display: true,           // Show gridlines
-									color: '#888',           // Optional: gridline color
-									lineWidth: 1             // Optional: gridline width
-								},
-							},
-						y: {
-						beginAtZero: true
-						}
-					}
-					}
-				});
-			</script>
-	</body>
-</html>
