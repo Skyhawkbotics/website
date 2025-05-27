@@ -4177,8 +4177,8 @@ input, select, textarea {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-	background-color: #bbb;
-	color: black;
+	background-color: #000;
+	color: white;
 }
 
 /* Style the back side */
