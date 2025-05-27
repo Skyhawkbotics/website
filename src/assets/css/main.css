@@ -4146,6 +4146,7 @@ input, select, textarea {
 	background-color: transparent;
 	width: 100%;
 	aspect-ratio: 1 / 1;
+	min-height: fit-content;
 	box-shadow: 0 8px 16px 0 #db201e;
 	perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
