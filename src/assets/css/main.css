@@ -4163,7 +4163,6 @@ input, select, textarea {
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
 	transform: rotateY(180deg);
-	box-shadow: 0 16px 32px 0 #db201e;
 }
 
 /* Position the front and back side */
@@ -4184,9 +4183,10 @@ input, select, textarea {
 /* Style the back side */
 .flip-card-back {
 	background-color: #000;
-	color: white;
+	height:fit-content;
 	transform: rotateY(180deg);
 	padding: 0.5em 0.5em;
+	box-shadow: 0 16px 32px 0 #db201e;
 }
 
 /* Flexbox layout for sticky footer */
