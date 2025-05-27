@@ -4146,7 +4146,7 @@ input, select, textarea {
 	background-color: transparent;
 	width: 300px;
 	height: 200px;
-	border: 1px solid #f1f1f1;
+	box-shadow: 0 8px 16px 0 #db201e;
 	perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -4163,6 +4163,7 @@ input, select, textarea {
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
 	transform: rotateY(180deg);
+	box-shadow: 0 16px 32px 0 #db201e;
 }
 
 /* Position the front and back side */
