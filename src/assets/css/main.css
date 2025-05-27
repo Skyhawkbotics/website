@@ -4184,6 +4184,7 @@ input, select, textarea {
 .flip-card-back {
 	background-color: #000;
 	height:fit-content;
+	min-height: 100%;
 	transform: rotateY(180deg);
 	padding: 0.5em 0.5em;
 	box-shadow: 0 16px 32px 0 #db201e;
