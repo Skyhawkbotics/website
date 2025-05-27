@@ -4186,6 +4186,7 @@ input, select, textarea {
 	background-color: #000;
 	color: white;
 	transform: rotateY(180deg);
+	padding: 0.5em 0.5em;
 }
 
 /* Flexbox layout for sticky footer */
