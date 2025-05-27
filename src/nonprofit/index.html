@@ -8,6 +8,7 @@
 	<head>
 		<title>Nonprofit | Hawkbot1cs</title>
 		<base href="../">
+		<link rel="icon" type="image/x-icon" href="images/Hawkbotics_clear.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -124,6 +125,32 @@
 
 											<script>
 												$("#sidebar2-placeholder").load("components/sidebar_content/donatenonprofit.html", function() {
+													$().dropotron({
+														alignment: 'center',
+														hideDelay: 300
+													});
+												});
+											</script>
+										</section>
+										<hr />
+										<section>
+											<div id="sidebar3-placeholder"></div>
+
+											<script>
+												$("#sidebar3-placeholder").load("components/sidebar_content/outreach.html", function() {
+													$().dropotron({
+														alignment: 'center',
+														hideDelay: 300
+													});
+												});
+											</script>
+										</section>
+										<hr />
+										<section>
+											<div id="sidebar4-placeholder"></div>
+	
+											<script>
+												$("#sidebar4-placeholder").load("components/sidebar_content/calendar.html", function() {
 													$().dropotron({
 														alignment: 'center',
 														hideDelay: 300

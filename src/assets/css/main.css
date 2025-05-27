@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+:root {
+	color-scheme: dark;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2569,6 +2573,12 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			box-shadow: 0 8px 16px 0 #db211e;
+			transition: 0.3s;
+		}
+
+		.image.fit:hover {
+			box-shadow: 0 16px 32px 0 #db201e;
 		}
 
 			.image.fit img {
@@ -3452,12 +3462,6 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
-	body.landing #header {
-		background: transparent;
-		box-shadow: none;
-		position: absolute;
-	}
-
 /* Banner */
 
 	#banner {
@@ -4059,7 +4063,7 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 505px) {
 
 		/* Basic */
 
@@ -4136,4 +4140,23 @@ input, select, textarea {
 /* Add some padding inside the card container */
 .container {
 	padding: 0.5em 0.5em;
+}
+
+/* Flexbox layout for sticky footer */
+html, body {
+    height: 100%;
+}
+
+#page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    flex: 1 0 auto;
+}
+
+#footer-placeholder {
+    flex-shrink: 0;
 }

@@ -1,5 +1,15 @@
 <!-- Header -->
 
+<script>
+    jQuery(window).on('scroll', function() {
+    if(jQuery(window).scrollTop() > 120) {
+        jQuery('#header').css('background-color', 'rgba(39, 40, 51, 0.965)');
+    } else {
+        jQuery('#header').css('background-color', 'rgba(0, 0, 0, 0)');
+    }
+});
+</script>
+
 <h1 id="logo"><span class="hawkbot1cslogo"><a href=""><img src="images/Hawkbotics_clear.png" height = 20px>   Hawkbot1cs</a></span></h1>
 <nav id="nav">
     <ul>
@@ -7,50 +17,15 @@
             <a href="ftc">FTC</a>
             <ul>
                 <li><a href="ftc/seasonperformance">Our Performance</a></li>
-                <li><a href="right-sidebar.html">Our Robot</a></li>
-                <li><a href="no-sidebar.html">No Sidebar</a></li>
-                <li>
-                    <a href="#">Submenu</a>
-                    <ul>
-                        <li><a href="#">Option 1</a></li>
-                        <li><a href="#">Option 2</a></li>
-                        <li><a href="#">Option 3</a></li>
-                        <li><a href="#">Option 4</a></li>
-                    </ul>
-                </li>
             </ul>
         </li>
         <li>
             <a href="outreach">Outreach</a>
-            <ul>
-                <li><a href="right-sidebar.html">Our Robot</a></li>
-                <li><a href="no-sidebar.html">No Sidebar</a></li>
-                <li>
-                    <a href="#">Submenu</a>
-                    <ul>
-                        <li><a href="#">Option 1</a></li>
-                        <li><a href="#">Option 2</a></li>
-                        <li><a href="#">Option 3</a></li>
-                        <li><a href="#">Option 4</a></li>
-                    </ul>
-                </li>
-            </ul>
         </li>
         <li>
             <a href="nonprofit">Nonprofit</a>
             <ul>
-                <li><a href="right-sidebar.html">Our Values</a></li>
-                <li><a href="no-sidebar.html">Structure</a></li>
                 <li><a href="nonprofit/publicdocs">Documents</a></li>
-                <li>
-                    <a href="#">Submenu</a>
-                    <ul>
-                        <li><a href="#">Option 1</a></li>
-                        <li><a href="#">Option 2</a></li>
-                        <li><a href="#">Option 3</a></li>
-                        <li><a href="#">Option 4</a></li>
-                    </ul>
-                </li>
             </ul>
         </li>
         <li><a href="calendar">Calendar</a></li>
