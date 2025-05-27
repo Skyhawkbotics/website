@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Calendar | Hawkbot1cs</title>
+		<base href="../">
+		<link rel="icon" type="image/x-icon" href="images/Hawkbotics_clear.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<div id="nav-placeholder"></div>
+			</header>
+				
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script>
+			// Wait for the DOM *and* the snippet
+			$(function () {
+				$("#nav-placeholder").load("components/nav.html", function () {
+				// Activate dropdowns now that #nav exists
+				$('#nav > ul').dropotron({ alignment: 'center', hideDelay: 300 });
+
+				// Dynamically pull in main.js only after navbar is present
+				$.getScript("assets/js/main.js");
+				});
+			});
+			</script>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Calendar</h2>
+							<p>Our upcoming and past events.</p>
+						</header>
+						<div class="row gtr-150">
+							<div class="col-8 col-12-medium">
+
+								<!-- Content -->
+									<section id="content">
+										<p>Part of achieving our mission is reaching as many people in our community as we can. The best way for us to do this is through community events and inviting the community to watch us and participate in our robotics tournaments. Below you will find an updated calendar of our events. Be sure to keep a close eye on it as the details may change. We hope to see you around!
+										</p>
+										<iframe src="https://embed.styledcalendar.com/#CrcDB1RcHtIKgSx2fAPE" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" data-cy="calendar-embed-iframe"></iframe>
+										<script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+									</section>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<section id="sidebar">
+										<section>
+											<div id="sidebar1-placeholder"></div>
+
+											<script>
+												$("#sidebar1-placeholder").load("components/sidebar_content/outreach.html", function() {
+													$().dropotron({
+														alignment: 'center',
+														hideDelay: 300
+													});
+												});
+											</script>
+										</section>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+			<div id="footer-placeholder"></div>
+
+			<script>
+				$("#footer-placeholder").load("components/footer.html", function() {
+					$('#footer > ul').dropotron({
+						alignment: 'center',
+						hideDelay: 300
+					});
+				});
+			</script>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+	</body>
+</html>

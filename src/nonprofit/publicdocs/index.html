@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Documents | Hawkbot1cs</title>
+		<base href="../../">
+		<link rel="icon" type="image/x-icon" href="images/Hawkbotics_clear.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<div id="nav-placeholder"></div>
+			</header>
+				
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+			<script>
+			// Wait for the DOM *and* the snippet
+			$(function () {
+				$("#nav-placeholder").load("components/nav.html", function () {
+				// Activate dropdowns now that #nav exists
+				$('#nav > ul').dropotron({ alignment: 'center', hideDelay: 300 });
+
+				// Dynamically pull in main.js only after navbar is present
+				$.getScript("assets/js/main.js");
+				});
+			});
+			</script>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Documents</h2>
+							<p>Read our public documentation and notes here.</p>
+						</header>
+						<div class="row gtr-150">
+							<div class="col-8 col-12-medium">
+
+								<!-- Content -->
+									<section id="content">
+										<p>As a IRS-recognized, 501(c)(3)-classified nonprofit, we are committed to a high level of transparency and accuracy when it comes to our documents and records. Below, you will find copies of our founding documents (Articles of Incorporation, bylaws, and Form 1023-EZ), a history of our Meeting Minutes, and our most recently filed Form 990. If you would like to request any other documents, please contact skyhawkbotics@gmail.com and we’ll try to get back to you as soon as possible.</p>
+
+										<ul class="alt">
+											<li><a href="assets/documents/ArticlesOfIncorporation23.pdf" target="_blank" rel="noopener noreferrer">Articles of Incorporation</a></li>
+											<li><a href="assets/documents/Hawkbot1csBylaws.pdf" target="_blank" rel="noopener noreferrer">Bylaws</a></li>
+											<li><a href="assets/documents/CopyOfForm1023-EZ.pdf" target="_blank" rel="noopener noreferrer">Form 1023-EZ</a></li>
+											<li><a href="https://docs.google.com/document/d/e/2PACX-1vSkRjaFBWdKdLdQyVQQUZsvQmO4jixVV4TBKa1BsriaGZYnTlVCiKjN0XlJgdhwfrFh8-NKadmaGvkC/pub" target="_blank" rel="noopener noreferrer">Board Director Meeting Minutes</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<section id="sidebar">
+										<section>
+											<div id="sidebar1-placeholder"></div>
+
+											<script>
+												$("#sidebar1-placeholder").load("components/sidebar_content/donatenonprofit.html", function() {
+													$().dropotron({
+														alignment: 'center',
+														hideDelay: 300
+													});
+												});
+											</script>
+										</section>
+										<hr />
+									</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+			<div id="footer-placeholder"></div>
+
+			<script>
+				$("#footer-placeholder").load("components/footer.html", function() {
+					$('#footer > ul').dropotron({
+						alignment: 'center',
+						hideDelay: 300
+					});
+				});
+			</script>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+	</body>
+</html>

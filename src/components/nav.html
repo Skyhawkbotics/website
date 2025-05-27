@@ -1,0 +1,35 @@
+<!-- Header -->
+
+<script>
+    jQuery(window).on('scroll', function() {
+    if(jQuery(window).scrollTop() > 120) {
+        jQuery('#header').css('background-color', 'rgba(39, 40, 51, 0.965)');
+    } else {
+        jQuery('#header').css('background-color', 'rgba(0, 0, 0, 0)');
+    }
+});
+</script>
+
+<h1 id="logo"><span class="hawkbot1cslogo"><a href=""><img src="images/Hawkbotics_clear.png" height = 20px>   Hawkbot1cs</a></span></h1>
+<nav id="nav">
+    <ul>
+        <li>
+            <a href="ftc">FTC</a>
+            <ul>
+                <li><a href="ftc/seasonperformance">Our Performance</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="outreach">Outreach</a>
+        </li>
+        <li>
+            <a href="nonprofit">Nonprofit</a>
+            <ul>
+                <li><a href="nonprofit/publicdocs">Documents</a></li>
+            </ul>
+        </li>
+        <li><a href="calendar">Calendar</a></li>
+        <li><a href="donate">Support Us</a></li>
+        <li><a href="involved" class="button primary">Join Us!</a></li>
+    </ul>
+</nav>
