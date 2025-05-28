@@ -16,26 +16,6 @@
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
-
-			<!-- Header -->
-			<header id="header">
-				<div id="nav-placeholder"></div>
-			</header>
-				
-			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-			<script>
-			// Wait for the DOM *and* the snippet
-			$(function () {
-				$("#nav-placeholder").load("components/nav.html", function () {
-				// Activate dropdowns now that #nav exists
-				$('#nav > ul').dropotron({ alignment: 'center', hideDelay: 300 });
-
-				// Dynamically pull in main.js only after navbar is present
-				$.getScript("assets/js/main.js");
-				});
-			});
-			</script>
-
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
 					<div class="container">
