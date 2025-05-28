@@ -11,6 +11,10 @@ This will provide you with a definition of the folder structure, best developmen
 -   New pages can now be created and ready to push in minutes by duplicating and modifying an `.html` file in `src/routes/Templates`.
 -   The navbar and footer can now be modified site-wide from a single file.
 
+### Development Best Practices
+
+If you'd like to add a feature to the website, please check if there is an existing branch or pull request already for the feature you are looking to add. Doing so helps prevent merge conflicts and redundant work.
+
 ### /src/assets
 
 -   This is the assets folder.
