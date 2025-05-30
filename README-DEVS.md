@@ -15,6 +15,8 @@ This will provide you with a definition of the folder structure, best developmen
 
 If you'd like to add a feature to the website, please check if there is an existing branch or pull request already for the feature you are looking to add. Doing so helps prevent merge conflicts and redundant work.
 
+If there is no brancn or PR for the feature you want, either create a new branch for the feature, or fork the repository. Make sure you start a pull request once you start making changes.
+
 ### /src/assets
 
 -   This is the assets folder.
