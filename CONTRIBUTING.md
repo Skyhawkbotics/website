@@ -25,14 +25,14 @@ Note: For more details about a folder's purpose and contributing instructions, n
 -   This is the assets folder.
 -   Contains important CSS and JavaScript files.
 
-### `/src/routes`
+#### `/src/routes`
 
 -   This is the folder where the pages are stored.
 -   Each page must be in its own folder.
 -   All webpages should be called  `index.html `
 
 
-### `/src/components`
+#### `/src/components`
 
 -   This is the components folder.
 -   These are referenced in the pages to reduce code duplication.
