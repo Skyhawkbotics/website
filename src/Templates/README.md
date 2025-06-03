@@ -11,13 +11,17 @@ This folder contains resources to make new pages and sidebar components.
 
 ### Usage
 
-#### Create a Page with Sidebar
+#### Create a Page
 1. Create a folder in `src` with the desired URL in the title. You can also put the new folder in another folder if you wish.
-2. Copy `rsidebar.html` and paste it into your new folder
-3. Rename `rsidebar.html` to `index.html`
+2. Copy `rsidebar.html` or `xsidebar` and paste it into your new folder
+3. Rename the file to `index.html`
 4. If you put your new folder in an existing folder, modify the `base href` property. You will need to add `../` for each layer.
-5. In the sidebar section, replace `Templates/sidebarcontent.html` with a path to your desired sidebar component.
-6. If you wish to add another sidebar component, paste the following underneath the last sidebar component and replace `sidebar3-placeholder` with another number if needed to ensure there are no conflicts between components:
+5. Make your desired changes. Use `elements.html` to insert preformatted elements in your new page if needed.
+
+#### Use a Sidebar Component
+Follow these instructions if you used `rsidebar.html`
+1. In the sidebar section, replace `Templates/sidebarcontent.html` with a path to your desired sidebar component.
+2. If you wish to add another sidebar component, paste the following underneath the last sidebar component and replace `sidebar3-placeholder` with another number if needed to ensure there are no conflicts between components.
    
   ```
 <hr />
