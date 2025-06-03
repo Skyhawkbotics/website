@@ -1,4 +1,4 @@
-## Dev Readme
+## Contributing Instructions
 
 This will provide you with a definition of the folder structure, best development practices, and dev-related changes in version 2.
 
@@ -15,19 +15,21 @@ This will provide you with a definition of the folder structure, best developmen
 
 If you'd like to add a feature to the website, please check if there is an existing branch or pull request already for the feature you are looking to add. Doing so helps prevent merge conflicts and redundant work.
 
-If there is no brancn or PR for the feature you want, either create a new branch for the feature, or fork the repository. Make sure you start a pull request once you start making changes.
+If there is no branch or PR for the feature you want, either create a new branch for the feature, or fork the repository. Make sure you start a pull request once you start making changes and push frequently.
 
-### /src/assets
+### `/src/assets`
 
 -   This is the assets folder.
+-   Contains important CSS and JavaScript files.
 
-### /src/routes
+### `/src/routes`
 
 -   This is the folder where the pages are stored.
+-   Each page must be in its own folder.
 -   All webpages should be called  `index.html `
 
 
-### /src/components
+### `/src/components`
 
 -   This is the components folder.
 -   These are referenced in the pages to reduce code duplication.
