@@ -17,7 +17,7 @@ This folder contains resources to make new pages and sidebar components.
 3. Rename `rsidebar.html` to `index.html`
 4. If you put your new folder in an existing folder, modify the `base href` property. You will need to add `../` for each layer.
 5. In the sidebar section, replace `Templates/sidebarcontent.html` with a path to your desired sidebar component.
-6. If you wish to add another sidebar component, paste the following and replace `sidebar3-placeholder` with another number to ensure there are no conflicts between components:
+6. If you wish to add another sidebar component, paste the following underneath the last sidebar component and replace `sidebar3-placeholder` with another number if needed to ensure there are no conflicts between components:
    
   ```
 <hr />
