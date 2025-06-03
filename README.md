@@ -1,3 +1,3 @@
 # Website
 
-The Hawkbot1cs website. For dev info, see [README-DEVS.md](README-DEVS.md)
+The Hawkbot1cs website. For dev info, see [README-DEVS.md](CONTRIBUTING.md)
