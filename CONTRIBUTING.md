@@ -17,17 +17,19 @@ If you'd like to add a feature to the website, please check if there is an exist
 
 If there is no brancn or PR for the feature you want, either create a new branch for the feature, or fork the repository. Make sure you start a pull request once you start making changes.
 
-### /src/assets
+### Folder Structure
+Note: For more details about a folder's purpose and contributing instructions, navigate to the folder and open the `README.md` file.
+#### /src/assets
 
 -   This is the assets folder.
 
-### /src/routes
+#### /src/routes
 
 -   This is the folder where the pages are stored.
 -   All webpages should be called  `index.html `
 
 
-### /src/components
+#### /src/components
 
 -   This is the components folder.
 -   These are referenced in the pages to reduce code duplication.
