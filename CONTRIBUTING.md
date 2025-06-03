@@ -22,7 +22,7 @@ If there is no branch or PR for the feature you want, either create a new branch
 -   This is the assets folder.
 -   Contains important CSS and JavaScript files.
 
-### `/src/routes`
+### `/src`
 
 -   This is the folder where the pages are stored.
 -   Each page must be in its own folder.
