@@ -20,7 +20,7 @@ This folder contains resources to make new pages and sidebar components.
 
 ### Use a Sidebar Component
 Follow these instructions if you used `rsidebar.html`
-1. In the sidebar section, replace `Templates/sidebarcontent.html` with a path to your desired sidebar component.
+1. In the sidebar section, replace `Templates/sidebarcontent.html` with a path to your desired sidebar component. The sidebar components are located in `/src/components/sidebar_content`.
 2. If you wish to add another sidebar component, paste the following underneath the last sidebar component and replace `sidebar3-placeholder` with another number if needed to ensure there are no conflicts between components.
    
   ```
@@ -41,7 +41,7 @@ Follow these instructions if you used `rsidebar.html`
 
 ### Create a Sidebar Component
 
-1. Copy `sidebarcontent.html` into `/src/components`.
+1. Copy `sidebarcontent.html` into `/src/components/sidebar_content`.
 2. Rename your file to something else.
 3. Edit the title, body text, images, and buttons as needed.
 
