@@ -38,3 +38,7 @@ Follow these instructions if you used `rsidebar.html`
     </script>
   </section>
 ```
+
+#### Use `elements.html`
+Assuming your copy of the website is hosted at `localhost:5500`, navigate to: `localhost:5500/src/Templates/elements.html` in your web browser.
+If you see a component you want to use, use the browser's inspect feature to locate the code. Then, go to your IDE, find the code in `elements.html`, and paste it into your page. You can then modify the element to make it fit your needs.
