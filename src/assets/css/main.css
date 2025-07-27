@@ -4211,17 +4211,15 @@ html, body {
 }
 
 .event-container {
-	background: #000;
-	border: 1px solid #e1e1e1;
 	border-radius: 8px;
 	padding: 2rem;
 	margin-bottom: 2rem;
-	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-	transition: box-shadow 0.3s ease;
+	box-shadow: 0 8px 16px 0 #db211e;
+	transition: 0.3s;
 }
 
 .event-container:hover {
-	box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+	box-shadow: 0 16px 32px 0 #db201e;
 }
 
 .event-header {
@@ -4256,7 +4254,6 @@ html, body {
 
 .event-location {
 	font-size: 1rem;
-	color: #fff;
 	margin: 0 0 0.5rem 0;
 	display: flex;
 	align-items: center;
@@ -4270,7 +4267,6 @@ html, body {
 
 .event-datetime {
 	font-size: 1rem;
-	color: #fff;
 	margin: 0 0 1rem 0;
 	display: flex;
 	align-items: center;
@@ -4283,7 +4279,6 @@ html, body {
 }
 
 .event-description {
-	color: #fff;
 	line-height: 1.6;
 	margin: 0;
 }
