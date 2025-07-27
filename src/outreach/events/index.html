@@ -22,6 +22,91 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.event-container {
+				background: #000;
+				border: 1px solid #e1e1e1;
+				border-radius: 8px;
+				padding: 2rem;
+				margin-bottom: 2rem;
+				box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+				transition: box-shadow 0.3s ease;
+			}
+			
+			.event-container:hover {
+				box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+			}
+			
+			.event-header {
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+			}
+			
+			.event-image {
+				width: 100%;
+				height: 250px;
+				overflow: hidden;
+				border-radius: 6px;
+			}
+			
+			.event-image img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+			
+			.event-info {
+				width: 100%;
+			}
+			
+			.event-title {
+				font-size: 1.5rem;
+				font-weight: 600;
+				color: #fff;
+				margin: 0 0 0.5rem 0;
+			}
+			
+			.event-location {
+				font-size: 1rem;
+				color: #fff;
+				margin: 0 0 0.5rem 0;
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+			}
+			
+			.event-location:before {
+				content: "📍";
+				font-size: 0.9rem;
+			}
+			
+			.event-datetime {
+				font-size: 1rem;
+				color: #fff;
+				margin: 0 0 1rem 0;
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+			}
+			
+			.event-datetime:before {
+				content: "📅";
+				font-size: 0.9rem;
+			}
+			
+			.event-description {
+				color: #fff;
+				line-height: 1.6;
+				margin: 0;
+			}
+			
+			@media screen and (max-width: 736px) {
+				.event-image {
+					height: 200px;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -59,6 +144,21 @@
 									<section id="content">
 										<p>Hawkbot1cs has participated in many outreach events. You can browse this list to see our past activities.</p>
 										<h3>DECODE</h3>
+											<div class="event-container">
+												<div class="event-header">
+													<div class="event-image">
+														<img src="assets/images/2025sextonmtnfair.jpg"/>
+													</div>
+													<div class="event-info">
+														<h3 class="event-title">Sexton Mountain Science Fair</h3>
+														<p class="event-location">Sexton Mountain Elementary School</p>
+														<p class="event-datetime">Date • Time</p>
+														<p class="event-description">
+															Your event description here...
+														</p>
+													</div>
+												</div>
+											</div>
 										<h3>INTO THE DEEP</h3>
 									</section>
 
