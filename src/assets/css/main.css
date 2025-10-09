@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=Oxanium:wght@200..800&display=swap');
 
 /*
 	Landed by HTML5 UP
@@ -34,9 +34,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 .hawkbot1cslogo {
-	font-family: "Press Start 2P", system-ui;
-	font-weight: 400;
-	font-style: normal;
+	font-family: "Chakra Petch", system-ui;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
 	color: #db201e
 }
 	  
