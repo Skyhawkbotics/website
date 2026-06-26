@@ -156,10 +156,10 @@
 				new Chart(ctx, {
 					type: 'bar',
 					data: {
-						labels: ['Powerplay', 'Centerstage', 'Into The Deep'],
+						labels: ['Powerplay', 'Centerstage', 'Into The Deep', 'Decode'],
 						datasets: [{
 							label: 'Maximum Advancement',
-							data: [1, 4, 5],
+							data: [1, 4, 5, 8],
 							borderWidth: 1,
 							backgroundColor: '#db201e', // Set bar color
 						}]
@@ -181,7 +181,7 @@
 								}
 							},
 							x: {
-								max: 8,
+								max: 10,
 								grid: {
 									display: true,           // Show gridlines
 									color: '#888',           // Optional: gridline color
@@ -205,10 +205,15 @@
 										} else if (value === 6){
 											return 'State Championship Playoffs';
 										} else if (value === 7){
-												return 'World Championship Qualifications';
+												return 'Premiere Event Qualifications';
 										} else if (value === 8){
+												return 'Premiere Event Playoffs';
+										} else if (value === 9){
+												return 'World Championship Qualifications';
+										} else if (value === 10){
 												return 'World Championship Playoffs';
-										} else {
+										}
+										else {
 											return '';
 										}
 									}
