@@ -3540,6 +3540,7 @@ input, select, textarea {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
+					transform: scaleX(-1);
 				}
 
 	body.is-touch #banner {
