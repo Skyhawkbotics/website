@@ -688,7 +688,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			.container {
 				width: 100% !important;
@@ -1429,7 +1429,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			.row {
 				display: flex;
@@ -3668,7 +3668,7 @@ input, select, textarea {
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1020px) {
 
 		/* Basic */
 
