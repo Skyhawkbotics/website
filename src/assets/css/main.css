@@ -3752,7 +3752,9 @@ input, select, textarea {
 						margin: 0;
 					}
 
-		/* Footer */
+				#banner .content .image img {
+					transform: scaleX(1);
+				}
 
 			#footer {
 				padding: 4.5em 0;
