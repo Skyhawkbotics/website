@@ -4213,3 +4213,81 @@ html, body {
 #footer-placeholder {
     flex-shrink: 0;
 }
+
+.event-container {
+	border-radius: 8px;
+	margin-bottom: 2rem;
+	box-shadow: 0 8px 16px 0 #db211e;
+	transition: 0.3s;
+	overflow: hidden;
+}
+
+.event-container:hover {
+	box-shadow: 0 16px 32px 0 #db201e;
+}
+
+.event-header {
+	display: flex;
+	flex-direction: column;
+}
+
+.event-image {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.event-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.event-info {
+	width: 100%;
+	padding: 2rem;
+}
+
+.event-title {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #fff;
+	margin: 0 0 0.5rem 0;
+}
+
+.event-location {
+	font-size: 1rem;
+	margin: 0 0 0 0;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.event-location:before {
+	content: "📍";
+	font-size: 0.9rem;
+}
+
+.event-datetime {
+	font-size: 1rem;
+	margin: 0 0 1rem 0;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.event-datetime:before {
+	content: "📅";
+	font-size: 0.9rem;
+}
+
+.event-description {
+	line-height: 1.6;
+	margin: 0;
+}
+
+@media screen and (max-width: 736px) {
+	.event-image {
+		height: 200px;
+	}
+}
