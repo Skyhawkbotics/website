@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=Oxanium:wght@200..800&display=swap');
 
 /*
 	Landed by HTML5 UP
@@ -34,9 +34,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 .hawkbot1cslogo {
-	font-family: "Press Start 2P", system-ui;
-	font-weight: 400;
-	font-style: normal;
+	font-family: "Chakra Petch", system-ui;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
 	color: #db201e
 }
 	  
@@ -687,7 +688,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			.container {
 				width: 100% !important;
@@ -1428,7 +1429,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			.row {
 				display: flex;
@@ -3468,7 +3469,7 @@ input, select, textarea {
 		background-attachment: fixed;
 		background-color: #272833;
 		background-image: url("../../assets/images/banner.jpg");
-		background-position: center center;
+		background-position: center top;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
@@ -3539,6 +3540,7 @@ input, select, textarea {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
+					transform: scaleX(-1);
 				}
 
 	body.is-touch #banner {
@@ -3666,7 +3668,7 @@ input, select, textarea {
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1020px) {
 
 		/* Basic */
 
@@ -3750,7 +3752,9 @@ input, select, textarea {
 						margin: 0;
 					}
 
-		/* Footer */
+				#banner .content .image img {
+					transform: scaleX(1);
+				}
 
 			#footer {
 				padding: 4.5em 0;

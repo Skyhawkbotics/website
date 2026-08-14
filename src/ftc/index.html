@@ -57,7 +57,7 @@
 
 								<!-- Content -->
 									<section id="content">
-										<a class="image fit"><img src="assets/images/shortteamphoto.jpg" alt="" /></a>
+										<a class="image fit"><img src="assets/images/banner.jpg" alt="" /></a>
 										<h3>About Our <em>FIRST<sup>®</sup></em> Tech Challenge Team</h3>
 										<p>We are Hawkbot1cs team 20790. Originally founded as a school club in 2021, our team, performance and ambitions have grown tremendously.</p>
 										<h3>About the <em>FIRST<sup>®</sup></em> Tech Challenge</h3>
@@ -65,7 +65,7 @@
 										<h3>Our History</h3>
 											<div><canvas id="myChart"></canvas></div><br>
 
-											<h4>Powerplay</h4>
+											<h4>POWERPLAY</h4>
 												<div class="row gtr-50 gtr-uniform">
 													<div class="col-3 col-6-small"><span class="image fit"><img src="assets/images/powerplaybot.jpg" alt="" /></span></div>
 													<div class="col-3 col-6-small"><span class="image fit"><img src="assets/images/powerplayrobotcup.JPG" alt="" /></span></div>
@@ -73,7 +73,7 @@
 													<div class="col-3 col-6-small"><span class="image fit"><img src="assets/images/powerplayrobotwork.JPG" alt="" /></span></div>
 												</div><br>
 												<p>This was our inaugural season as a <em>FIRST<sup>®</sup></em> Tech Challenge team, and we faced a steep learning curve. None of our members had had any previous experience with robotics, so they learned every single step from scratch, from how to use linear slides to programming basic driving controls to presenting in front of a panel of FTC judges. Our design, featuring a turret, was a great feat of engineering, yet was too complicated to use. We ended the season near the bottom of the group, but left the qualifying tournament with an Innovate Award and a bunch of knowledge in hand!</p>
-											<h4>Centerstage</h4>
+											<h4>CENTERSTAGE</h4>
 												<div class="row gtr-50 gtr-uniform">
 													<div class="col-3 col-6-small"><span class="image fit"><img src="assets/images/teamatworkcenterstage.jpg" alt="" /></span></div>
 													<div class="col-3 col-6-small"><span class="image fit"><img src="assets/images/centerstagebot.jpeg" alt="" /></span></div>
@@ -81,7 +81,7 @@
 													<div class="col-3 col-6-small"><span class="image fit"><img src="assets/images/centerstagewhiteboard.jpg" alt="" /></span></div>
 												</div><br>
 												<p>We decided to approach our second season with the same creativity that won us an Innovate Award the previous year. The challenge this year was to place pixels (hexagons) on an inclined board to create “mosaics.” There were also opportunities to launch paper airplanes (“drones”) and hang the robot. While we managed to increase our outreach to our local STEM community a lot, winning us the Motivate Award, we suffered several setbacks in our design, which led to us once again ranking near the bottom of our qualifying tournament.</p>
-											<h4>Into The Deep</h4>
+											<h4><a href="ftc/INTO-THE-DEEP">INTO THE DEEP</a></h4>
 												<div class="row gtr-50 gtr-uniform">
 													<div class="col-3 col-6-small"><span class="image fit"><img src="assets/images/robot.jpeg" alt="" /></span></div>
 													<div class="col-3 col-6-small"><span class="image fit"><img src="assets/images/25staterobot.jpg" alt="" /></span></div>
@@ -156,10 +156,10 @@
 				new Chart(ctx, {
 					type: 'bar',
 					data: {
-						labels: ['Powerplay', 'Centerstage', 'Into The Deep'],
+						labels: ['POWERPLAY', 'CENTERSTAGE', 'INTO THE DEEP', 'DECODE'],
 						datasets: [{
 							label: 'Maximum Advancement',
-							data: [1, 4, 5],
+							data: [1, 4, 5, 8],
 							borderWidth: 1,
 							backgroundColor: '#db201e', // Set bar color
 						}]
@@ -181,7 +181,7 @@
 								}
 							},
 							x: {
-								max: 8,
+								max: 10,
 								grid: {
 									display: true,           // Show gridlines
 									color: '#888',           // Optional: gridline color
@@ -205,10 +205,15 @@
 										} else if (value === 6){
 											return 'State Championship Playoffs';
 										} else if (value === 7){
-												return 'World Championship Qualifications';
+												return 'Premiere Event Qualifications';
 										} else if (value === 8){
+												return 'Premiere Event Playoffs';
+										} else if (value === 9){
+												return 'World Championship Qualifications';
+										} else if (value === 10){
 												return 'World Championship Playoffs';
-										} else {
+										}
+										else {
 											return '';
 										}
 									}
